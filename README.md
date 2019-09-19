@@ -4,6 +4,11 @@ Summaries for papers discussed by VLG.
 
 # Summaries
 
+2019
+
+- Graph U-Nets [[Paper](https://arxiv.org/abs/1905.05178)] [[Review](https://github.com/vlgiitr/papers_we_read/blob/master/summaries/graph_unet.md)]
+	- Hongyang Gao, Shuiwang Ji, ICML-2019
+
 2017
 
 - Unpaired Image-to-Image Translation using Cycle Consistent Adversarial Networks [[Paper](https://arxiv.org/abs/1703.10593)] [[Review](https://github.com/vlgiitr/papers_we_read/blob/master/summaries/cyclegan.md)]
