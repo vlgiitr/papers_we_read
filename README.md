@@ -18,3 +18,7 @@ Summaries for papers discussed by VLG.
 
 - Siamese Recurrent Architectures for Learning Sentence Similarity [[Paper](https://dl.acm.org/citation.cfm?id=3016291)] [[Review](https://github.com/vlgiitr/papers_we_read/blob/master/summaries/siamese.md)]
 	- Jonas Mueller, Aditya Thyagarajan, AAAI-2016 
+- Densely Connected Convolutional Networks [[Paper](https://arxiv.org/abs/1608.06993)]
+ [[Review](https://github.com/ayushtues/papers_we_read/blob/master/summaries/densenet.md)]
+  - Gao Huang, Zhuang Liu, Laurens van der Maaten, Kilian Q. Weinberger , CVPR-2017
+
