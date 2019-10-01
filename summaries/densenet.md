@@ -9,7 +9,7 @@ It has significantly fewer parameters than ResNet and also achieved SOTA perform
 ### Overview
 
 - The main idea behind the paper is to connect every layer with every other layer in the network. This is done is a feed-forward fashion meaning that all the preceding layers are connected to the current layer, and its output is connected to the input of all the subsequent layers.
-<img src='./images/densenet.png' style="max-width:100%">
+<img src='https://github.com/ayushtues/papers_we_read/blob/master/images/densenet.png' style="max-width:100%">
 
 - As the concatenation operation is valid for feature maps of same sizes only, the network consists of dense blocks which contain such connected layers followed by **transition layers** , which is basically a 1x1 Conv followed by 2x2 average pooling to reduce the size of feature maps.
 - Each layer adds k new feature maps to the network, this is called **growth rate**.
