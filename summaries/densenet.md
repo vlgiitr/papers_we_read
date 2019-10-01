@@ -9,4 +9,4 @@ It has significantly less parameters than ResNet and also achieived SOTA perform
 ### Overview
 
 - The main idea behind the paper is to connect every layer with every other layer in the network . This is done is a feed-forward fashion meaning that all the preceeding layers are conntected to the current layer , and its output is connected to the input of all the subsequent layers.
-<img src='images/densenet.png' style="max-width:100%">
+<img src='https://github.com/ayushtues/papers_we_read/blob/master/images/densenet.png' style="max-width:100%">
