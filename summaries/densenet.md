@@ -28,11 +28,11 @@ It has significantly fewer parameters than ResNet and also achieved SOTA perform
 - As a layer is closely connected with the output and input layers, so they kind of receive direct supervision and hence it improves gradient and information flow.
 - They are also shown to have a regularizing nature and are less prone to over-fitting.
 
-### Weakness
+### Weaknesses
 - The paper could have had better figures describing its architecture.
 - The regularisation nature could have been explored better.
 - They could have combined the concatenation operation of DenseNet with the summation operation of Resnets to maybe explore  
 
-### Implementaion
+### Implementation
 https://github.com/liuzhuang13/DenseNet
 
