@@ -8,6 +8,8 @@ Summaries for papers discussed by VLG.
 
 - Graph U-Nets [[Paper](https://arxiv.org/abs/1905.05178)] [[Review](https://github.com/vlgiitr/papers_we_read/blob/master/summaries/graph_unet.md)]
 	- Hongyang Gao, Shuiwang Ji, ICML-2019
+- Feature Denoising for Improving Adversarial Robustness [[Paper](https://arxiv.org/pdf/1812.03411)] [[Review](https://github.com/vlgiitr/papers_we_read/blob/master/summaries/feature_denoising.md)]
+	- Cihang Xie, Yuxin Wu, Laurens van der Maaten, Alan Yuille, kaiming He, CVPR-2019
 
 2017
 
