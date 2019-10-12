@@ -20,6 +20,28 @@ This paper proposes a novel idea for interpretable deep learning , it basically 
 
 
 - There are 3 training stages  
-    1. SGD of the layers before the FC layer h 
-    2. Projection of the prototypes onto the closest latent representations of training image patches from the same class as       that of the prototype. 
-    3. Convex optimization of the last layer h. (Using Adam)
+    1. **SGD of the layers before the FC layer h** -  This aims to learn a meaningful latent space where the most important            patches for classifying images are clustered around prototypes associated with their own classes (Clustering Cost), and those important patches from different classes will be separated into distinct clusters(Separation Cost) . The loss function is sum of the cross entropy loss , the clustering cost and the seperation cost .
+    
+    2. **Projection of the prototypes onto the closest latent representations of training image patches from the same class as       that of the prototype.** -  We push each prototype pj onto the closest latent representation of training image patches from the same class as that of pj . So effectively each prototype now corresponds to some patch of a image in the training set
+    3. **Convex optimization of the last layer h. (Using Adam)** - The parametets of the conv , and the prototype layers are fixed . Also the weights of the last layer are encouraged to be sparse by adding L1 regularisation.
+    
+    
+<img src='https://github.com/ayushtues/papers_we_read/blob/master/images/prototype.png' style="max-width:100%">
+
+- The nearest prototypes of a given image are mostly prototypes associated with the class of the image
+- The nearest patches of a given prototype mostly come from those images in the same class as that of the prototype
+- Similar parts are consistently highlighted when the original images containing the nearest patches of a given prototype are passed through the network to generate the activation maps.
+
+### Strengths
+- The classification process is very interpretable , as we can see which prototype got the maximum similarity and also we can make an activation map to identify which part of the image was repsonsible for classification.
+- In more high stakes decisions like detecting breast cancer this interpretability is very important , as we need to know examine the process by which the network classifies.
+- The network can achieve comparable accuracy with its analogous standard non-interpretable counterpart as well as other interpretable deep models.
+
+### Weaknesses
+- There are sometimes same prototypes , which indicates a lack of representational power.
+- Sometimes similar prototypes of other classes also have high similarity scores , leading to wrong classification.
+
+### Implementation
+The paper will be presented in the NIPS 2019 conference , and I am reproducing it for the NIPS 2019 reproduciblity challenge.
+
+
