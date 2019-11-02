@@ -6,10 +6,17 @@ Summaries for papers discussed by VLG.
 
 2019
 
+- SinGAN: Learning a Generative Model from a Single Natural Image [[Paper](https://arxiv.org/pdf/1905.01164)] [[Review](https://github.com/vlgiitr/papers_we_read/blob/master/summaries/singan.md)]
+    - Tamar Rott Shaham, Tali Dekel, Tomer Michaeli, ICCV-2019
 - Graph U-Nets [[Paper](https://arxiv.org/abs/1905.05178)] [[Review](https://github.com/vlgiitr/papers_we_read/blob/master/summaries/graph_unet.md)]
 	- Hongyang Gao, Shuiwang Ji, ICML-2019
 - Feature Denoising for Improving Adversarial Robustness [[Paper](https://arxiv.org/pdf/1812.03411)] [[Review](https://github.com/vlgiitr/papers_we_read/blob/master/summaries/feature_denoising.md)]
 	- Cihang Xie, Yuxin Wu, Laurens van der Maaten, Alan Yuille, kaiming He, CVPR-2019
+
+2018
+
+- CyCADA: Cycle-Consistent Adversarial Domain Adaptation [[Paper](https://arxiv.org/pdf/1711.03213.pdf)] [[Review](https://github.com/vlgiitr/papers_we_read/blob/master/summaries/cycada.md)]
+	- Judy Hoffman, Eric Tzeng, Taesung Park, Jun-Yan Zhu, Phillip Isola, Kate Saenko, Alexei A. Efros, Trevor Darrell, ICML-2018
 
 2017
 
