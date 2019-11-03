@@ -13,6 +13,8 @@ Summaries for papers discussed by VLG.
 - Feature Denoising for Improving Adversarial Robustness [[Paper](https://arxiv.org/pdf/1812.03411)] [[Review](https://github.com/vlgiitr/papers_we_read/blob/master/summaries/feature_denoising.md)]
 	- Cihang Xie, Yuxin Wu, Laurens van der Maaten, Alan Yuille, kaiming He, CVPR-2019
 
+- This Looks Like That: Deep Learning for Interpretable Image Recognition [[Paper]](https://arxiv.org/pdf/1806.10574.pdf)  [[Review]](https://github.com/vlgiitr/papers_we_read/blob/master/summaries/this_looks_like_that.md)
+	- Chaofan Chen, Oscar Li, Chaofan Tao, Alina Jade Barnett, Jonathan Su, Cynthia Rudin , NIPS -2019
 2018
 
 - CyCADA: Cycle-Consistent Adversarial Domain Adaptation [[Paper](https://arxiv.org/pdf/1711.03213.pdf)] [[Review](https://github.com/vlgiitr/papers_we_read/blob/master/summaries/cycada.md)]
