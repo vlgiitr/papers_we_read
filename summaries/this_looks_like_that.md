@@ -42,6 +42,6 @@ This paper proposes a novel idea for interpretable deep learning , it basically 
 - Sometimes similar prototypes of other classes also have high similarity scores , leading to wrong classification.
 
 ### Implementation
-The paper will be presented in the NIPS 2019 conference , and I am reproducing it for the NIPS 2019 reproduciblity challenge.
+Work in progress (as a part of the NIPS 2019 Reproduciblity Challenge)
 
 
