@@ -6,6 +6,8 @@ Summaries for papers discussed by VLG.
 
 2019
 
+- vGraph: A Generative Model for Joint Community Detection and Node Representational Learning [[Paper](https://arxiv.org/abs/1906.07159)] [[Review](https://github.com/vlgiitr/papers_we_read/blob/master/summaries/vgraph.md)]
+	- Fan-Yun Sun, Meng Qu, Jordan Hoffmann, Chin-Wei Huang, Jian Tang, **NIPS-2019**
 - SinGAN: Learning a Generative Model from a Single Natural Image [[Paper](https://arxiv.org/pdf/1905.01164)] [[Review](https://github.com/vlgiitr/papers_we_read/blob/master/summaries/singan.md)]
     - Tamar Rott Shaham, Tali Dekel, Tomer Michaeli, **ICCV-2019**
 - Graph U-Nets [[Paper](https://arxiv.org/abs/1905.05178)] [[Review](https://github.com/vlgiitr/papers_we_read/blob/master/summaries/graph_unet.md)]
