@@ -6,7 +6,7 @@ Summaries for papers discussed by VLG.
 
 2019
 - Specializing Word Embeddings (for Parsing) by Information Bottleneck[[Paper](https://arxiv.org/abs/1910.00163)][[Review](./summaries/info_bottleneck.md)]
-- Xiang Lisa Li, Jason Eisner **EMNLP-2019**
+	- Xiang Lisa Li, Jason Eisner **EMNLP-2019**
 - vGraph: A Generative Model for Joint Community Detection and Node Representational Learning [[Paper](https://arxiv.org/abs/1906.07159)] [[Review](https://github.com/vlgiitr/papers_we_read/blob/master/summaries/vgraph.md)]
 	- Fan-Yun Sun, Meng Qu, Jordan Hoffmann, Chin-Wei Huang, Jian Tang, **NIPS-2019**
 - Uniform convergence may be unable to explain generalization in deep learning[[Paper](https://arxiv.org/abs/1902.04742)][[Review](./summaries/uniform_convergence.md)]
