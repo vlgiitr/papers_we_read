@@ -13,7 +13,7 @@ This paper proposes a novel technique for learning node representations and at t
 
 - For achieving this, it is assumed that each node can be represented as a mixture of communities, and each community is defined as a multinomial distribution over nodes. Hence we leverage node as well as community embeddings to generate an edge given a node.
 
-<img src='https://github.com/vlgiitr/papers_we_read/blob/master/images/vgraph.png'>
+<img src='../images/vgraph.png'>
 
 - Given a edge between nodes u & v, to obtain a generative model between them, firstly using the fact that each node can be represented a mixture of communities, we find *p(z|u)*. Once the community assignment(z) is done and since each community is assumed as a multinomial distribution over nodes, we find the node mostly likely on the other side of the edge determined using the community assignment *p(v|z)*.
 

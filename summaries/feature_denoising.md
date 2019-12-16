@@ -15,7 +15,7 @@ This paper proposes a new technique to achieve adversarial robustness for a Deep
 
 - So to fix this, a denoising block is added to the network after one of the layers to get activations close to normal activations and hence make the decision process by the network accurate.
 
-<img src='https://github.com/vlgiitr/papers_we_read/blob/master/images/feature_denoising.png' align="center">
+<img src='../images/feature_denoising.png' align="center">
 
 - As can be seen from the figure, the major component of this block is the denoising operation which denoises the image while 1\*1 conv and the residual connection are mainly for feature combination. The parameters for the denoising block can be learned in an end-to-end fashion.
 

@@ -11,7 +11,7 @@ This paper proposes a novel idea for interpretable deep learning , it basically 
 - Each prototpye is applied to all the patches of the conv output , and using the L2 distance , a **similarity score is produced for a single prototype for all the patches** , this can also be used to make a heatmap of similarity .
 - Then global pooling is applied to convert this into a single score **gpj**.Which represents the strongest similar finding of that prototype in the image.
 - Then the m global similarity scores are feeded in the FC layer to perform classification.
-<img src='https://github.com/vlgiitr/papers_we_read/blob/master/images/this_looks_like_that.png' style="max-width:100%">
+<img src='../images/this_looks_like_that.png' style="max-width:100%">
 
 ## Overview
 - The network basically learns from the training set, a limited number of **prototypical parts** that are useful in classifying a new image.
@@ -26,7 +26,7 @@ This paper proposes a novel idea for interpretable deep learning , it basically 
     3. **Convex optimization of the last layer h. (Using Adam)** - The parametets of the conv , and the prototype layers are fixed . Also the weights of the last layer are encouraged to be sparse by adding L1 regularisation.
     
     
-<img src='https://github.com/vlgiitr/papers_we_read/blob/master/images/prototype.png' style="max-width:100%">
+<img src='../images/prototype.png' style="max-width:100%">
 
 - The nearest prototypes of a given image are mostly prototypes associated with the class of the image
 - The nearest patches of a given prototype mostly come from those images in the same class as that of the prototype

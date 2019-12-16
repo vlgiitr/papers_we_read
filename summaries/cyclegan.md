@@ -15,7 +15,7 @@ This paper proposes an image-to-image translation mechanism without paired image
 
 - The first generator(G<sub>12</sub>) traslates the image from 1st domain to another while its corresponding discriminator(D<sub>1</sub>) acts a critic to differentiate from real and fake. The generated output from this is then passed through the second generator(G<sub>21</sub>) which then translates the image back to its original domain with its corresponding discriminator(D<sub>2</sub>). The same process is repeated but with passing the images from 2nd domain to G<sub>21</sub> while forming a complete cycle again
 
-<img src='https://github.com/vlgiitr/papers_we_read/blob/master/images/cyclegan.png'>
+<img src='../images/cyclegan.png'>
 
 - However even with the above process the network can easily just translate an image to another domain without caring about the information that makes it unique since there are no paired images. For example, in a horse to zebra transformation, with the above process we can easily translate a horse to a zebra but we may just not retain the information such as how the zebra is standing among many others if we follow this process.
 

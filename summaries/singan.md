@@ -14,7 +14,7 @@ This paper proposes a novel GAN training technique to obtain a generative model 
 
 - While the idea of using single training image has been there for quite some time(mostly being for a specific task like harmonization, style transfer, etc) the proposed procedure takes it one step forward by making the generative model unconditional(generating real-like images sampled from training distribution by passing random noise) and not limited to texture images
 
-<img src='https://github.com/vlgiitr/papers_we_read/blob/master/images/singan.png'>
+<img src='../images/singan.png'>
 
 - As can be seen from the diagram, the model follows a pyramid structure with each level being given fed a different scale of the training image, with x<sub>n</sub> being the downsampled version of the image with factor r<sup>n</sup> (r>1). At the lowest(coarse) level, random noise is passed through the generator and the output of this(after upsampling by a factor of r) is passed onto the next level(N=n-1).
 

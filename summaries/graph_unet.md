@@ -13,7 +13,7 @@ This paper proposes a U-Net like architecture for graphical data and tries prett
 
 - The simple pooling operation for image data cannot possibly work in the case of graphical data as the operation is reliant on spatial information while there is no sense of spatial information in the case of graphs.
 
-<img src='https://github.com/vlgiitr/papers_we_read/blob/master/images/graph_unet.png'>
+<img src='../images/graph_unet.png'>
 
 - So for **gPool operation**, we take a projection of **X**(The information matrix for nodes) to make it a 1D vector and then take *top-k* nodes, where k is according to our need. Once the index of the *top-k* nodes are noted, the rows from **X** corresponding to them are kept while others are removed. So we get a reduced information matrix out of this process.
 
