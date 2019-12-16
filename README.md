@@ -5,6 +5,9 @@ Summaries for papers discussed by VLG.
 # Summaries
 
 2019
+
+- Bridging the Gap between Training and Inference for Neural Machine Translation[[Paper](https://arxiv.org/abs/1906.02448)][[Review](./summaries/NMT_Gap.md)]
+  - Wen Zhang, Yang Feng, Fandong Meng, Di You, Qun Liu  **ACL-2019**
 - Designing and Interpreting Probes with Control Tasks [[Paper](https://arxiv.org/abs/1909.03368)][[Review](./summaries/control_tasks.md)]
   - John Hewitt, Percy Liang **EMNLP-2019**
 - Specializing Word Embeddings (for Parsing) by Information Bottleneck[[Paper](https://arxiv.org/abs/1910.00163)][[Review](./summaries/info_bottleneck.md)]
