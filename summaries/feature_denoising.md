@@ -22,7 +22,7 @@ This paper proposes a new technique to achieve adversarial robustness for a Deep
 - The various Denoising operations they have used in the paper are as follows:
 	- **Non-Local Means**: Computes denoised feature map of an input feature map by taking a weighted mean of features in all spatial locations. The various ways to select the weighting function:
 		- Gaussian Softmax: Kind of softmax-based self-attention computation of the features
-		- Dot Product: Simple dot product between features to get the weighring function. Provides denoising operation with no extra parameters.
+		- Dot Product: Simple dot product between features to get the weighting function. Provides denoising operation with no extra parameters.
 	- **Bilateral filter**: Computes denoised feature map of an input feature map by taking a weighted mean of features in a predefined neighborhood. The various ways to calculate the weighting function:
 		- Gaussian Softmax and Dot product are same as before.
 		- Mean filter: Computation of simple mean of the features in the neighborhood window defined.
@@ -36,7 +36,7 @@ This paper proposes a new technique to achieve adversarial robustness for a Deep
 
 ## Our two cents
 
-- The notion of introducing the denoising block in the network has leveraged one of the basic concepts of adversarial examples and has given pretty competitve results.
+- The notion of introducing the denoising block in the network has leveraged one of the basic concepts of adversarial examples and has given pretty competitive results.
 
 - Also the fact that the denoising block can be learned in an end-to-end fashion means that the modified network can also be used for simple image training, with little to no change in accuracy, as has been stated by the authors as well.
 
