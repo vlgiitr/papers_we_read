@@ -6,13 +6,14 @@ Summaries for papers discussed by VLG.
 
 2019
 
+- Scene Representation Networks: Continuous 3D-Structure-Aware Neural Scene Representations [[Paper](https://papers.nips.cc/paper/8396-scene-representation-networks-continuous-3d-structure-aware-neural-scene-representations.pdf)][[Review](./summaries/srn.md)]
+	- Vincent Sitzmann, Michael Zollhofer, Gordon Wetzstein, **NIPS-2019**
 - Emotion-Cause Pair Extraction: A New Task to Emotion Analysis in Texts[[Paper](https://arxiv.org/abs/1906.01267)][[Review](./summaries/ecpe.md)]
-	- Rui Xia, Zixiang Ding **ACL-2019**
-
+	- Rui Xia, Zixiang Ding, **ACL-2019**
 - Putting an End to End-to-End: Gradient-Isolated Learning of Representations [[Paper](https://papers.nips.cc/paper/8568-putting-an-end-to-end-to-end-gradient-isolated-learning-of-representations.pdf)][[Review](./summaries/infomax.md)]
     - Sindy Lowe, Peter O' Connor, Bastiaan S. Veeling, **NIPS-2019**
 - Bridging the Gap between Training and Inference for Neural Machine Translation [[Paper](https://arxiv.org/abs/1906.02448)][[Review](./summaries/NMT_Gap.md)]
-  	- Wen Zhang, Yang Feng, Fandong Meng, Di You, Qun Liu  **ACL-2019**
+  	- Wen Zhang, Yang Feng, Fandong Meng, Di You, Qun Liu, **ACL-2019**
 - Designing and Interpreting Probes with Control Tasks [[Paper](https://arxiv.org/abs/1909.03368)][[Review](./summaries/control_tasks.md)]
   	- John Hewitt, Percy Liang, **EMNLP-2019**
 - Specializing Word Embeddings (for Parsing) by Information Bottleneck [[Paper](https://arxiv.org/abs/1910.00163)][[Review](./summaries/info_bottleneck.md)]
