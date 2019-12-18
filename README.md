@@ -6,6 +6,8 @@ Summaries for papers discussed by VLG.
 
 2019
 
+- Do you know that Florence is packed with visitors? Evaluating state-of-the-art models of speaker commitment. [[Paper](https://www.aclweb.org/anthology/P19-1412/)][[Review](./summaries/florence.md)]
+  -  Nanjiang Jiang and Marie-Catherine de Marneffe , **ACL-2019**
 - Scene Representation Networks: Continuous 3D-Structure-Aware Neural Scene Representations [[Paper](https://papers.nips.cc/paper/8396-scene-representation-networks-continuous-3d-structure-aware-neural-scene-representations.pdf)][[Review](./summaries/srn.md)]
 	- Vincent Sitzmann, Michael Zollhofer, Gordon Wetzstein, **NIPS-2019**
 - Emotion-Cause Pair Extraction: A New Task to Emotion Analysis in Texts[[Paper](https://arxiv.org/abs/1906.01267)][[Review](./summaries/ecpe.md)]
