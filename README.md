@@ -5,7 +5,8 @@ Summaries for papers discussed by VLG.
 # Summaries
 
 2019
-
+-  Zero-Shot Entity Linking by Reading Entity Descriptions[[Paper](https://arxiv.org/abs/1906.07348)][[Review](./summaries/entity_linking.md)]
+   - Lajanugen Logeswaran ,  Ming-Wei Chang‡ Kenton Lee ,  Kristina Toutanova , Jacob Devlin, Honglak Lee **ACL-2019**
 - Do you know that Florence is packed with visitors? Evaluating state-of-the-art models of speaker commitment. [[Paper](https://www.aclweb.org/anthology/P19-1412/)][[Review](./summaries/florence.md)]
   -  Nanjiang Jiang and Marie-Catherine de Marneffe , **ACL-2019**
 - Scene Representation Networks: Continuous 3D-Structure-Aware Neural Scene Representations [[Paper](https://papers.nips.cc/paper/8396-scene-representation-networks-continuous-3d-structure-aware-neural-scene-representations.pdf)][[Review](./summaries/srn.md)]
