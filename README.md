@@ -5,6 +5,10 @@ Summaries for papers discussed by VLG.
 # Summaries
 
 2019
+
+- Stand-Alone Self-Attention in Vision Models[[Paper](https://arxiv.org/abs/1906.05909)][[Review](./summaries/vision_attention.md)]
+    - Prajit Ramachandran, Niki Parmar, Ashish Vaswani, Irwan Bello, Anselm Levskaya, Jonathon Shlens, **NIPS 2019** 
+
 -  Zero-Shot Entity Linking by Reading Entity Descriptions[[Paper](https://arxiv.org/abs/1906.07348)][[Review](./summaries/entity_linking.md)]
    - Lajanugen Logeswaran ,  Ming-Wei Chang‡ Kenton Lee ,  Kristina Toutanova , Jacob Devlin, Honglak Lee **ACL-2019**
 - Do you know that Florence is packed with visitors? Evaluating state-of-the-art models of speaker commitment. [[Paper](https://www.aclweb.org/anthology/P19-1412/)][[Review](./summaries/florence.md)]
@@ -39,12 +43,15 @@ Summaries for papers discussed by VLG.
 - CyCADA: Cycle-Consistent Adversarial Domain Adaptation [[Paper](https://arxiv.org/pdf/1711.03213.pdf)] [[Review](./summaries/cycada.md)]
 	- Judy Hoffman, Eric Tzeng, Taesung Park, Jun-Yan Zhu, Phillip Isola, Kate Saenko, Alexei A. Efros, Trevor Darrell, **ICML-2018**
 
+
 2017
 
 - Unpaired Image-to-Image Translation using Cycle Consistent Adversarial Networks [[Paper](https://arxiv.org/abs/1703.10593)] [[Review](./summaries/cyclegan.md)]
 	- Jun-Yan Zhu, Taesung Park, Phillip Isola, Alexei A. Efros, **ICCV-2017**
 - Densely Connected Convolutional Networks [[Paper](https://arxiv.org/abs/1608.06993)] [[Review](./summaries/densenet.md)]
   	- Gao Huang, Zhuang Liu, Laurens van der Maaten, Kilian Q. Weinberger, **CVPR-2017**
+
+
 	
 2016
 

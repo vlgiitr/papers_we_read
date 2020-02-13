@@ -19,7 +19,7 @@ unseen entities in a new domain. **This paper also got the Outstanding paper awa
  
 - They construct a new dataset for the zero-shot entity linking task using wikias, since, in wikias, mentions and context have rich document context that can be exploited by reading comprehension approaches.
  
-- They assume that the target entity exists in the entity dictionary and leave NIL recognition or clustering (NIL recognition means predicting new entities, which are absent in the entity dictionary )
+- They assume that the target entity exists in the entity dictionary and leave NIL recognition or clustering (NIL recognition means predicting new entities, which are absent in the entity dictionary)
  
 <img src='../images/entity_linking.png' style="max-width:100%">
  
