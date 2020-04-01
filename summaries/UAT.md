@@ -19,9 +19,9 @@ The parameter controls the p diameter of the bounded perturbation, and ξ is a s
     
 This is solved by the iterative method in algorithm 1, which relies on an inner loop to apply DeepFool to each training instance, which makes the solver slow, with no guarantee for convergence due to outer loop.
 
-<img src="../images/UAT_algo1ex.png">
+<img src="../images/UAT_algo1small.png" title='Iterative deepfool algorithm'>
 
-<img src="../images/UAT_algo1.png">
+<!-- <img src="../images/UAT_algo1.png"> -->
 
 Different from Moosavi-Dezfooli et al.(2017b), this paper proposed an stochastic gradient based optimization for a β-clipped loss function that comes with convergence guarantee when decreasing learning rate is used.
 Clipping is used to force the optimizer to find a perturbation that fools many instances, otherwise, a single misclassification can lead to cross-entropy loss to be arbitrarily large.
@@ -29,7 +29,7 @@ Clipping is used to force the optimizer to find a perturbation that fools many i
 <img src='../images/UAT_eq2.png' title='objective function for optimized UAP generation method'>
 <img src='../images/UAT_eq3.png' title='clipped loss function'>
 
-<img src='../images/UAT_algo2.png'>
+<img src='../images/UAT_algo2small.png' title='optimized algorithm for UAP generations'>
 Also, each iteration is based on a minibatch of samples instead of one instance, which accelerates computation on a GPU, and requires a simple gradient update instead of the complex DeepFool inner loop, resulting to fast convergence and good performance of the proposed method.
 
 ## Universal adversarial training:
@@ -42,11 +42,11 @@ universal perturbation noise, and l(·) is the loss function.
 Previously, solving this optimization problem directly was deemed computationally infeasible due to the large cost
 associated with generating a universal perturbation (Perolat et al., 2018), but they show that unlike Madry et al. (2018), updating the universal perturbation only using a simple step is enough for building universally hardened networks.
  
-<img src='../images/UAT_algo3.png' title='Alternate gradient optimization based adversarial training'>
+<img src='../images/UAT_algo3small.png' title='Alternate gradient optimization based adversarial training'>
 
 As in above algorithm, each iteration alternatively updates the neural network weights w using gradient descent, and then updates the universal perturbation $\delta$ using ascent, only once per step, and these updates accumulate for both w and δ through training.
 
 ## Low-cost Universal adversarial training:
 As UAPs are universal, results shouldn't vary to the order of updates. Thus it proposes simultaneous update for network weights and the universal perturbation in algorithm 10, which backprops only once per iteration and produces approximately universally robust models at almost no cost in comparison to natural training, with only slight decrease in robustness as compared to original algorithm.
 
-<img src="../images/UAT_algo4.png" title="Algorithm with simultaneous update">
+<img src="../images/UAT_algo4small.png" title="Algorithm with simultaneous update">
