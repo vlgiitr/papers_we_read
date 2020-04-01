@@ -39,11 +39,11 @@ universal perturbation noise, and l(·) is the loss function.
 Previously, solving this optimization problem directly was deemed computationally infeasible due to the large cost
 associated with generating a universal perturbation (Perolat et al., 2018), but they show that unlike Madry et al. (2018), updating the universal perturbation only using a simple step is enough for building universally hardened networks.
  
-<img src='../images/UAT_algo3.png' title='Alternate gradient optimization based adversarial training'>
+<img src='../images/UAT_algo3.png' title='Alternate gradient optimization based adversarial training' width="80%">
 
 As in above algorithm, each iteration alternatively updates the neural network weights w using gradient descent, and then updates the universal perturbation $\delta$ using ascent, only once per step, and these updates accumulate for both w and δ through training.
 
 ## Low-cost Universal adversarial training:
 As UAPs are universal, results shouldn't vary to the order of updates. Thus it proposes simultaneous update for network weights and the universal perturbation in algorithm 10, which backprops only once per iteration and produces approximately universally robust models at almost no cost in comparison to natural training, with only slight decrease in robustness as compared to original algorithm.
 
-<img src="../images/UAT_algo4.png">
+<img src="../images/UAT_algo4.png" title="Algorithm with simultaneous update" width="80%">
