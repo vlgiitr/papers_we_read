@@ -18,6 +18,9 @@ whose perturbed class label f (w, x + δ)  differs from the original label f (w,
 The parameter controls the p diameter of the bounded perturbation, and ξ is a small tolerance hyperparameter to keep perturbations imperceptible to humans.
     
 This is solved by the iterative method in algorithm 1, which relies on an inner loop to apply DeepFool to each training instance, which makes the solver slow, with no guarantee for convergence due to outer loop.
+
+<img src="../images/UAT_algo1ex.png">
+
 <img src="../images/UAT_algo1.png">
 
 Different from Moosavi-Dezfooli et al.(2017b), this paper proposed an stochastic gradient based optimization for a β-clipped loss function that comes with convergence guarantee when decreasing learning rate is used.
