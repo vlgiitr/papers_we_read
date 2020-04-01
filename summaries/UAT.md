@@ -3,7 +3,7 @@ Ali Shafahi ∗ , Mahyar Najibi ∗ , Zheng Xu ∗ , John Dickerson, Larry S. Da
 University of Maryland
 
 ## Introduction
-Universal Adversarial Perturbations are image-agnostic perturbation vectors, that can be directly added to any image from a dataset, which is crafted with a malicious intention to fool Deep Neural Networks, thus creating several threat issues as Deep Learning Models are widely used everywhere!
+Universal Adversarial Perturbations are image-agnostic perturbation vectors, that can be directly added to any image from a dataset, which is crafted with a malicious intention to fool Deep Neural Networks, thus creating serious threat issues as Deep Learning Models are widely used everywhere!
 
 ## Contribution
 **First** poses a simple and efficient optimization-based universal attack that can be solved using stochastic gradient methods, learning pertubations 13× faster than the standard method.<br/>
