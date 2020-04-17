@@ -4,6 +4,10 @@ Summaries for papers discussed by VLG.
 
 # Summaries
 
+2020 
+- Universal Adversarial Training [[Paper](https://arxiv.org/abs/1811.11304)][[Review](./summaries/UAT.md)]
+    - Ali Shafahi ∗ , Mahyar Najibi ∗ , Zheng Xu ∗ , John Dickerson, Larry S. Davis, Tom Goldstein, **AAAI 2020**
+  
 2019
 - ViLBERT: Pretraining Task-Agnostic Visiolinguistic Representations for Vision-and-Language Tasks [[Paper](https://arxiv.org/abs/1908.02265)][[Review](./summaries/ViLBERT.md)]
     - Jiasen Lu, Dhruv Batra, Devi Parikh, Stefan Lee, **NIPS 2019**
