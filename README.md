@@ -14,17 +14,15 @@ Summaries for papers discussed by VLG.
 - ViLBERT: Pretraining Task-Agnostic Visiolinguistic Representations for Vision-and-Language Tasks [[Paper](https://arxiv.org/abs/1908.02265)][[Review](./summaries/ViLBERT.md)]
     - Jiasen Lu, Dhruv Batra, Devi Parikh, Stefan Lee
     - Georgia Institute of Technology, Oregon State University, Facebook AI Research, **NIPS 2019**
-
 - Stand-Alone Self-Attention in Vision Models[[Paper](https://arxiv.org/abs/1906.05909)][[Review](./summaries/vision_attention.md)]
     - Prajit Ramachandran, Niki Parmar, Ashish Vaswani, Irwan Bello, Anselm Levskaya, Jonathon Shlens, **NIPS 2019** 
-
--  Zero-Shot Entity Linking by Reading Entity Descriptions[[Paper](https://arxiv.org/abs/1906.07348)][[Review](./summaries/entity_linking.md)]
-   - Lajanugen Logeswaran ,  Ming-Wei Chang‡ Kenton Lee ,  Kristina Toutanova , Jacob Devlin, Honglak Lee **ACL-2019**
-- Do you know that Florence is packed with visitors? Evaluating state-of-the-art models of speaker commitment. [[Paper](https://www.aclweb.org/anthology/P19-1412/)][[Review](./summaries/florence.md)]
-  -  Nanjiang Jiang and Marie-Catherine de Marneffe , **ACL-2019**
+- Zero-Shot Entity Linking by Reading Entity Descriptions [[Paper](https://arxiv.org/abs/1906.07348)][[Review](./summaries/entity_linking.md)]
+    - Lajanugen Logeswaran ,  Ming-Wei Chang‡ Kenton Lee ,  Kristina Toutanova , Jacob Devlin, Honglak Lee **ACL-2019**
+- Do you know that Florence is packed with visitors? Evaluating state-of-the-art models of speaker commitment [[Paper](https://www.aclweb.org/anthology/P19-1412/)][[Review](./summaries/florence.md)]
+    - Nanjiang Jiang and Marie-Catherine de Marneffe , **ACL-2019**
 - Scene Representation Networks: Continuous 3D-Structure-Aware Neural Scene Representations [[Paper](https://papers.nips.cc/paper/8396-scene-representation-networks-continuous-3d-structure-aware-neural-scene-representations.pdf)][[Review](./summaries/srn.md)]
 	- Vincent Sitzmann, Michael Zollhofer, Gordon Wetzstein, **NIPS-2019**
-- Emotion-Cause Pair Extraction: A New Task to Emotion Analysis in Texts[[Paper](https://arxiv.org/abs/1906.01267)][[Review](./summaries/ecpe.md)]
+- Emotion-Cause Pair Extraction: A New Task to Emotion Analysis in Texts [[Paper](https://arxiv.org/abs/1906.01267)][[Review](./summaries/ecpe.md)]
 	- Rui Xia, Zixiang Ding, **ACL-2019**
 - Putting an End to End-to-End: Gradient-Isolated Learning of Representations [[Paper](https://papers.nips.cc/paper/8568-putting-an-end-to-end-to-end-gradient-isolated-learning-of-representations.pdf)][[Review](./summaries/infomax.md)]
     - Sindy Lowe, Peter O' Connor, Bastiaan S. Veeling, **NIPS-2019**
