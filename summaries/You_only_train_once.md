@@ -2,8 +2,6 @@
 
 Alexey Dosovitskiy & Josip Djolonga
 
-Google Research, Brain Team
-
 (Published as a conference paper at ICLR 2020)
 
 ## Summary
@@ -14,7 +12,7 @@ loss functions and, more generally, arbitrarily parameterized loss functions.
 It suggests a method to train a single model simultaneously minimizing a family of loss functions 
 instead of training a set of per-loss models.
 
-## Concept
+## Concept behind the paper
 
 The main concept is to **train a single model that covers all choices of coefficients of the loss terms, 
 instead of training a model for each set of coefficients**. This is achieved by:
@@ -23,7 +21,7 @@ instead of training a model for each set of coefficients**. This is achieved by:
 
 This way, at inference time the conditioning vector can be varied, allowing us to traverse the space of models corresponding to loss functions with different coefficients.
 
-## Method
+## Methodology
 
 - Instead of a single fixed loss function L(·, ·), assume that we are interested in a family of losses
 L(·, ·, λ), parameterized by a vector λ ∈ Λ ⊂ R d λ .
@@ -51,7 +49,7 @@ and to compute the loss.
 
 <img src='../images/yoto_method.png'>
 
-## Main contribution
+## Main contributions
 
 - In many ML problems, multiple loss functions have to be minimized simultaneously, each of them modelling a different facet of the considered problem.
 
@@ -65,13 +63,23 @@ and to compute the loss.
 
 - The experiments have been carried out on three problems: Beta-VAE, Style Transfer and Learned Image Compression. The results showed close similarity with fixed-weight models trained for each of the parameter configurations.  
 
-## Opinion
+## Our two cents
 
-- YOTO could reduce the effort spend in training models with fixed parameters separately.
+### Advantages
 
-- YOTO could turn out to be beneficial for many generative models where we have to keep in mind many different factors while training.
+- **Easier Training**: YOTO could reduce the effort spend in training models with fixed parameters separately as we won't have to decide the exact weights ourselves and try out different models (eg. the beta factor for the KL-divergence loss in Beta-VAE).
 
-- Studying the nature of P<sub>λ</sub> distribution could help us in better understanding the relation between different losses of a model.
+- **Relation between loss factors**: Studying the nature of P<sub>λ</sub> distribution could help us in better understanding the relation between different losses of a model.
+
+### Disadvantages
+
+- **Depends on capacity of the model**: For small-capacity models the proposed method somewhat under-performs relative to the fixed-weight models,since it is difficult for a small model to cover all loss variants. However, as the capacity is increased, YOTO models eventually outperform the fixed-weights models.
+
+- **P<sub>λ</sub> distribution**: It has to be chosen(or rather is picked) at present. It would be interesting to devise provably effective strategies of selecting the loss parameter distribution, especially for losses with multiple parameters.
+
+- **Task dependent**: It will likely only work on "easier" tasks. On difficult datasets even fitting the model to a fixed loss-factor is hard. It is doubtful if in such situation, the model could generalize to well to arbitrary loss-factors. Also training time and memory are two important factors to be kept in mind.
+
+**YOTO seems to be a really nice idea and more research into the idea could produce interesting results in future!**
 
 ## Resources
 
