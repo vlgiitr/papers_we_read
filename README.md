@@ -6,8 +6,8 @@ Summaries for papers discussed by VLG.
 
 2020
 
-- YOU ONLY TRAIN ONCE: LOSS-CONDITIONAL TRAINING OF DEEP NETWORKS [[Paper](https://openreview.net/pdf?id=HyxY6JHKwr)][[Review](./summaries/You_only_train_once.md)]
-    - Alexey Dosovitskiy & Josip Djolonga, **ICLR 2020**
+- You Only Train Once: Loss-conditional training of deep networks [[Paper](https://openreview.net/pdf?id=HyxY6JHKwr)][[Review](./summaries/You_only_train_once.md)]
+    - Alexey Dosovitskiy, Josip Djolonga, **ICLR 2020**
 
 2019
 - ViLBERT: Pretraining Task-Agnostic Visiolinguistic Representations for Vision-and-Language Tasks [[Paper](https://arxiv.org/abs/1908.02265)][[Review](./summaries/ViLBERT.md)]
