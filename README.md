@@ -4,6 +4,11 @@ Summaries for papers discussed by VLG.
 
 # Summaries
 
+2020
+
+- YOU ONLY TRAIN ONCE: LOSS-CONDITIONAL TRAINING OF DEEP NETWORKS [[Paper](https://openreview.net/pdf?id=HyxY6JHKwr)][[Review](./summaries/You_only_train_once.md)]
+
+
 2019
 - ViLBERT: Pretraining Task-Agnostic Visiolinguistic Representations for Vision-and-Language Tasks [[Paper](https://arxiv.org/abs/1908.02265)][[Review](./summaries/ViLBERT.md)]
     - Jiasen Lu, Dhruv Batra, Devi Parikh, Stefan Lee, **NIPS 2019**
