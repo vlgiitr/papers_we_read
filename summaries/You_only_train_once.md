@@ -1,16 +1,11 @@
-# YOU ONLY TRAIN ONCE : LOSS-CONDITIONAL TRAINING OF DEEP NETWORKS
+# You Only Train Once : Loss-conditional training of deep networks
 
-Alexey Dosovitskiy & Josip Djolonga
-
-(Published as a conference paper at ICLR 2020)
+Alexey Dosovitskiy, Josip Djolonga, ICLR 2020
 
 ## Summary
 
 The paper proposes a simple and broadly applicable approach that efficiently deals with multi-term
-loss functions and, more generally, arbitrarily parameterized loss functions.
-
-It suggests a method to train a single model simultaneously minimizing a family of loss functions 
-instead of training a set of per-loss models.
+loss functions and, more generally, arbitrarily parameterized loss functions. It suggests a method to train a single model simultaneously minimizing a family of loss functions instead of training a set of per-loss models.
 
 ## Concept behind the paper
 
@@ -65,13 +60,9 @@ and to compute the loss.
 
 ## Our two cents
 
-### Advantages
-
 - **Easier Training**: YOTO could reduce the effort spend in training models with fixed parameters separately as we won't have to decide the exact weights ourselves and try out different models (eg. the beta factor for the KL-divergence loss in Beta-VAE).
 
 - **Relation between loss factors**: Studying the nature of P<sub>λ</sub> distribution could help us in better understanding the relation between different losses of a model.
-
-### Disadvantages
 
 - **Depends on capacity of the model**: For small-capacity models the proposed method somewhat under-performs relative to the fixed-weight models,since it is difficult for a small model to cover all loss variants. However, as the capacity is increased, YOTO models eventually outperform the fixed-weights models.
 
@@ -79,9 +70,6 @@ and to compute the loss.
 
 - **Task dependent**: It will likely only work on "easier" tasks. On difficult datasets even fitting the model to a fixed loss-factor is hard. It is doubtful if in such situation, the model could generalize to well to arbitrary loss-factors. Also training time and memory are two important factors to be kept in mind.
 
-**YOTO seems to be a really nice idea and more research into the idea could produce interesting results in future!**
-
 ## Resources
 
-- [YOU ONLY TRAIN ONCE (Paper)](https://openreview.net/pdf?id=HyxY6JHKwr)
-- [YOU ONLY TRAIN ONCE (Blog)](https://ai.googleblog.com/2020/04/optimizing-multiple-loss-functions-with.html)
+- [You Only Train Once (Blog)](https://ai.googleblog.com/2020/04/optimizing-multiple-loss-functions-with.html)
