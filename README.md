@@ -8,8 +8,7 @@ Summaries for papers discussed by VLG.
 
 - You Only Train Once: Loss-conditional training of deep networks [[Paper](https://openreview.net/pdf?id=HyxY6JHKwr)][[Review](./summaries/You_only_train_once.md)]
     - Alexey Dosovitskiy, Josip Djolonga, **ICLR 2020**
-
-- GrokNet: Unified Computer Vision Model Trunk and Embeddings For Commerce[[Paper](https://ai.facebook.com/research/publications/groknet-unified-computer-vision-model-trunk-and-embeddings-for-commerce)][[Review](./summaries/GrokNet.md)]
+- GrokNet: Unified Computer Vision Model Trunk and Embeddings For Commerce [[Paper](https://ai.facebook.com/research/publications/groknet-unified-computer-vision-model-trunk-and-embeddings-for-commerce)][[Review](./summaries/GrokNet.md)]
     - Sean Bell, Yiqun Liu, Sami Alsheikh, Yina Tang, Ed Pizzi, M. Henning, Karun Singh, Omkar Parkhi, Fedor Borisyuk, **KDD 2020**
 
 2019
