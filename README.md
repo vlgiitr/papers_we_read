@@ -10,6 +10,8 @@ Summaries for papers discussed by VLG.
     - Alexey Dosovitskiy, Josip Djolonga, **ICLR 2020**
 - GrokNet: Unified Computer Vision Model Trunk and Embeddings For Commerce [[Paper](https://ai.facebook.com/research/publications/groknet-unified-computer-vision-model-trunk-and-embeddings-for-commerce)][[Review](./summaries/GrokNet.md)]
     - Sean Bell, Yiqun Liu, Sami Alsheikh, Yina Tang, Ed Pizzi, M. Henning, Karun Singh, Omkar Parkhi, Fedor Borisyuk, **KDD 2020**
+- Semantically multi-modal image synthesis[[Paper](https://arxiv.org/abs/2003.12697)][[Review](./summaries/Semantically_multi-modal_image_synthesis.md)]
+    - Zhen Zhu, Zhiliang Xu, Ansheng You, Xiang Bai, **CVPR 2020**
 
 2019
 - ViLBERT: Pretraining Task-Agnostic Visiolinguistic Representations for Vision-and-Language Tasks [[Paper](https://arxiv.org/abs/1908.02265)][[Review](./summaries/ViLBERT.md)]
