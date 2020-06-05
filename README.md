@@ -12,6 +12,8 @@ Summaries for papers discussed by VLG.
     - Sean Bell, Yiqun Liu, Sami Alsheikh, Yina Tang, Ed Pizzi, M. Henning, Karun Singh, Omkar Parkhi, Fedor Borisyuk, **KDD 2020**
 - Semantically multi-modal image synthesis [[Paper](https://arxiv.org/abs/2003.12697)][[Review](./summaries/Semantically_multi-modal_image_synthesis.md)]
     - Zhen Zhu, Zhiliang Xu, Ansheng You, Xiang Bai, **CVPR 2020**
+- Learning to Simulate Dynamic Environments with GameGAN [[Paper](http://arxiv.org/abs/2005.12126)][[Review](./summaries/GameGAN.md)]
+    - Seung Wook Kim, Yuhao Zhou, Jonah Philion, Antonio Torralba, Sanja Fidler, **CVPR 2020**
 
 2019
 - ViLBERT: Pretraining Task-Agnostic Visiolinguistic Representations for Vision-and-Language Tasks [[Paper](https://arxiv.org/abs/1908.02265)][[Review](./summaries/ViLBERT.md)]
