@@ -44,16 +44,12 @@ where;
 
 where; *K*, *G* and *E* are small MLPs. *w* is a learned shift kernel that depends on the current action, and the kernel is used to shift *α<sub>t−1</sub>*.
 
-<img src='../images/GameGAN_memory.png'>
-
 ###Rendering Engine
 
 - The (neural) rendering engine is responsible for rendering the simulated image *x<sub>t+1</sub>* given the state *h<sub>t</sub>* . It can be simply implemented with standard transposed convolution layers.
 
 - The paper also mentions a specialized rendering engine architecture for ensuring long-term consistency by learning to produce disentangled scenes.
  
-<img src='../images/GameGAN_rendering_engine.png'>
-
 ## Proposed Loss functions
 
 - **Adversarial Losses**: There are three main components:
