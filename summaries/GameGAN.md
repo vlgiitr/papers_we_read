@@ -6,7 +6,7 @@ Seung Wook Kim, Yuhao Zhou, Jonah Philion, Antonio Torralba, Sanja Fidler, **CVP
 
 The paper introduces **GameGAN**, a *generative model that learns to visually imitate a desired game by ingesting screenplay and keyboard actions during training*. Given a key pressed by the agent, GameGAN “renders” the next screen using a carefully designed generative adversarial network. It offers key advantages over existing work: memory module that builds an internal map of the environment, allowing for the agent to return to previously visited locations with high visual consistency. In addition, GameGAN is able to disentangle static and dynamic components within an image making the behavior of the model more interpretable, and relevant for downstream tasks that require explicit reasoning over dynamic elements. This enables many interesting applications such as swapping different components of the game to build new games that do not exist.
 
-GameGAN ingests screenplay and keyboard actions during training and aims to predict the next frame by conditioning on the action,i.e. a key pressed by the agent. It learns from rollouts of image and action pairs directly without having access to the underlying game logic or engine. GameGAN supports several applications such as transfer- ring a given game from one operating system to the other, without requiring to re-write code.
+GameGAN ingests screenplay and keyboard actions during training and aims to predict the next frame by conditioning on the action,i.e. a key pressed by the agent. It learns from rollouts of image and action pairs directly without having access to the underlying game logic or engine. GameGAN supports several applications such as transferring a given game from one operating system to the other, without requiring to re-write code.
 
 <img src='../images/GameGAN.png'>
 
@@ -14,7 +14,7 @@ GameGAN ingests screenplay and keyboard actions during training and aims to pred
 
 The focus is on an action-conditioned simulator in the image space where there is an egocentric agent that moves according to the given action *a<sub>t</sub> ∼ A* at time *t* and generates a new observation *x<sub>t+1</sub>*. We assume there is also a stochastic variable *z<sub>t</sub> ∼ N (0; I)* that corresponds to randomness in the environment. Given the history of images *x<sub>1:t</sub>* along with *a<sub>t</sub>* and *z<sub>t</sub>* , GameGAN predicts the next image *x<sub>t+1</sub>* . GameGAN is composed of three main modules: 
 
-###Dynamics Engine
+### Dynamics Engine
 
 - GameGAN has to learn how various aspects of an environment change with respect to the given user action. 
 
@@ -34,7 +34,7 @@ where;
 
 - The engine maintains the standard state variables for LSTM, *h<sub>t</sub>* and *c<sub>t</sub>* , which contain information about every aspect of the current environment at time *t*. It computes the state variables given *a<sub>t</sub>*, *z<sub>t</sub>* , *m<sub>t</sub>* , and *x<sub>t</sub>*.
 
-###Memory Module
+### Memory Module
 
 - Simulating an environment in which there is an agent navigating through it, requires long-term consistency in which the simulated scene should not change when the agent comes back to the same location a few moments later. We propose to use an external memory module, motivated by the Neural Turing Machine (NTM).
 
@@ -44,7 +44,7 @@ where;
 
 where; *K*, *G* and *E* are small MLPs. *w* is a learned shift kernel that depends on the current action, and the kernel is used to shift *α<sub>t−1</sub>*.
 
-###Rendering Engine
+### Rendering Engine
 
 - The (neural) rendering engine is responsible for rendering the simulated image *x<sub>t+1</sub>* given the state *h<sub>t</sub>* . It can be simply implemented with standard transposed convolution layers.
 
@@ -68,7 +68,7 @@ where; *K*, *G* and *E* are small MLPs. *w* is a learned shift kernel that depen
     
     - Using the memory location history *α<sub>t</sub>* , we can retrieve the memory vector *m̂<sub>t</sub>* which could be different from *m<sub>t</sub>* if the content at the location *α<sub>t</sub>* has been modified. 
     
-    - Now, *c = { m̂ t , 0}* is passed to the rendering engine to produce *X<sup>m̂<sub>t</sub></sup>* where *0* is the zero vector and *X<sup>m̂<sub>t</sub></sup>* is the output component corresponding to *m̂<sub>t</sub>*. We use the following loss:
+    - Now, *c = { m̂<sub>t</sub> , 0}* is passed to the rendering engine to produce *X<sup>m̂<sub>t</sub></sup>* where *0* is the zero vector and *X<sup>m̂<sub>t</sub></sup>* is the output component corresponding to *m̂<sub>t</sub>*. We use the following loss:
  
     <img src='../images/GameGAN_cycle_loss.png'> 
        
