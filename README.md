@@ -14,6 +14,8 @@ Summaries for papers discussed by VLG.
     - Zhen Zhu, Zhiliang Xu, Ansheng You, Xiang Bai, **CVPR 2020**
 - Learning to Simulate Dynamic Environments with GameGAN [[Paper](http://arxiv.org/abs/2005.12126)][[Review](./summaries/GameGAN.md)]
     - Seung Wook Kim, Yuhao Zhou, Jonah Philion, Antonio Torralba, Sanja Fidler, **CVPR 2020**
+- Adversarial Policies : Attacking deep reinforcement learning [[Paper](https://arxiv.org/abs/1905.10615)][[Review](./summaries/Adversarial_RL.md)]
+    - Adam Gleave, Michael Dennis, Cody Wild, Neel Kant, Sergey Levine, Stuart Russell, **ICLR 2020**
 
 2019
 - ViLBERT: Pretraining Task-Agnostic Visiolinguistic Representations for Vision-and-Language Tasks [[Paper](https://arxiv.org/abs/1908.02265)][[Review](./summaries/ViLBERT.md)]
