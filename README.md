@@ -6,6 +6,8 @@ Summaries for papers discussed by VLG.
 
 2020
 
+- Unsupervised Learning of Probably Symmetric Deformable 3D Objects from Images in the Wild [[Paper](https://arxiv.org/abs/1911.11130)][[Review](./summaries/Unsupervised_learning_for_3D_objects_from_images.md)]
+    - Shangzhe Wu, Christian Rupprecht, Andrea Vedaldi, **CVPR 2020**
 - You Only Train Once: Loss-conditional training of deep networks [[Paper](https://openreview.net/pdf?id=HyxY6JHKwr)][[Review](./summaries/You_only_train_once.md)]
     - Alexey Dosovitskiy, Josip Djolonga, **ICLR 2020**
 - GrokNet: Unified Computer Vision Model Trunk and Embeddings For Commerce [[Paper](https://ai.facebook.com/research/publications/groknet-unified-computer-vision-model-trunk-and-embeddings-for-commerce)][[Review](./summaries/GrokNet.md)]
