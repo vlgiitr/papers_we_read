@@ -18,6 +18,8 @@ Summaries for papers discussed by VLG.
     - Seung Wook Kim, Yuhao Zhou, Jonah Philion, Antonio Torralba, Sanja Fidler, **CVPR 2020**
 - Adversarial Policies : Attacking deep reinforcement learning [[Paper](https://arxiv.org/abs/1905.10615)][[Review](./summaries/Adversarial_RL.md)]
     - Adam Gleave, Michael Dennis, Cody Wild, Neel Kant, Sergey Levine, Stuart Russell, **ICLR 2020**
+- Bootstrap Your Own Latent: A New Approach to Self-Supervised Learning [[Paper](https://arxiv.org/abs/2006.07733)][[Review](./summaries/BYOL.md)]
+    - Jean-Bastien Grill, Florian Strub, Florent Altché, Corentin Tallec, Pierre H. Richemond, Elena Buchatskaya, Carl Doersch, Bernardo Avila Pires, Zhaohan Daniel Guo, Mohammad Gheshlaghi Azar, Bilal Piot, Koray Kavukcuoglu, Rémi Munos, Michal Valko, **CVPR 2020**
 
 2019
 - ViLBERT: Pretraining Task-Agnostic Visiolinguistic Representations for Vision-and-Language Tasks [[Paper](https://arxiv.org/abs/1908.02265)][[Review](./summaries/ViLBERT.md)]
