@@ -24,13 +24,12 @@ two latent vectors the **appearance code zₐ** and the **shape code zₛ** samp
 
 In the GIRAFFE model, for each object seperate latent codes are sampled and a neural feature field is conditioned on
 these latent codes along with an affine transfomation using matrices from *the object space to the scene space*. The 
-composite scene is obtained from the densities and feature vectors sampled for all the objects by weighted average 
+composite scene is obtained from the densities and feature vectors sampled for all the objects as a weighted average 
 of the features according to their densites and the volumetic density is the sum of the densities for all objects
 for a given point and the viewing direction. 
 ![alt text](https://github.com/kumar-devesh/papers_we_read/blob/master/images/giraffe_composition_scene_feature_field.PNG) 
 
-This feature field is volume rendered for a sampled camera pose **ε** and the 
-feature image is used to obtain the final image.
+Volume rendering for a sampled camera pose **ε** for the feature field gives the feature image which is used to obtain the final image using a CNN renderer.
 
 ## Results
 ![alt text](https://github.com/kumar-devesh/papers_we_read/blob/master/images/giraffe_controllable_scene_generation.PNG) 
