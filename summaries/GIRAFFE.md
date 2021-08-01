@@ -39,3 +39,7 @@ feature image is used to obtain the final image.
 - The paper presents a novel idea for controllable image synthesis by disentangling individual objects from the 
 background as well as their shape, appearance and pose without explicit supervision.
 - The model scales well on adding multiple objects in a scene at test time inspite of being trained on data with a single object in an image.
+
+## Resources
+- Paper Link 
+https://openaccess.thecvf.com/content/CVPR2021/html/Niemeyer_GIRAFFE_Representing_Scenes_As_Compositional_Generative_Neural_Feature_Fields_CVPR_2021_paper.html
