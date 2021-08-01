@@ -6,9 +6,9 @@ Summaries for papers discussed by VLG.
 2021
 
 - GANcraft: Unsupervised 3D Neural Rendering of Minecraft Worlds [[Paper](https://arxiv.org/pdf/2104.07659)][[Review](./summaries/GANcraft.md)]
-Zekun Hao, Arun Mallya, Serge Belongie, Ming-Yu Liu
+	- Zekun Hao, Arun Mallya, Serge Belongie, Ming-Yu Liu
 - GIRAFFE: Representing Scenes as Compositional Generative Neural Feature Fields [[Paper](https://openaccess.thecvf.com/content/CVPR2021/papers/Niemeyer_GIRAFFE_Representing_Scenes_As_Compositional_Generative_Neural_Feature_Fields_CVPR_2021_paper.pdf)][[Review](./summaries/GIRAFFE.md)]
-Michael Niemeyer, Andreas Geiger
+	- Michael Niemeyer, Andreas Geiger
 
 2020
 
