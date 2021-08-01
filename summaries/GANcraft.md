@@ -53,3 +53,7 @@ the output.
 - The model is the state of the art in world to world translation task in the absence of the ground truth photorealistic images for the segmentation labels of the 3D world.
 - There is a still a blocky appearance to the output images because of the domain shift in the training images of the spade model and the projected images from the 3D block
 world
+
+## Resources
+- https://nvlabs.github.io/GANcraft/
+- https://arxiv.org/pdf/2104.07659
