@@ -9,7 +9,7 @@ photorealistic images. In the absence of the paired training data,
 an image to image translation model is used for generating pseudo ground truth labels 
 to generate a photorealistic 3D block world.
 
-![alt text](https://github.com/kumar-devesh/paper-summaries/blob/main/pseudo%20gt.PNG)
+![alt text](https://github.com/kumar-devesh/papers_we_read/blob/master/images/GANcraft_pseudogt.PNG)
 
 ## Contributions
 
@@ -28,7 +28,7 @@ methods.
 
 ## Model
 
-![alt text](https://github.com/kumar-devesh/paper-summaries/blob/main/overview.PNG)
+![alt text](https://github.com/kumar-devesh/papers_we_read/blob/master/images/GANcraft_overview.PNG)
 
 GANs can successfuly map images from one 
 domain to the other, without paired data but for different views 
@@ -47,7 +47,7 @@ labels. Vertices of each voxel are assigned feature vectors which are shared
 across adjacent voxels ensuring that there are no inconsistencies in 
 the output.
 
-![alt text](https://github.com/kumar-devesh/paper-summaries/blob/main/nerf%20eqn%20feature.PNG)
+![alt text](https://github.com/kumar-devesh/papers_we_read/blob/master/images/GANcraft_feature_field.PNG)
 
 ## Our Two Cents
 - The model is the state of the art in world to world translation task in the absence of the ground truth photorealistic images for the segmentation labels of the 3D world.
