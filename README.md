@@ -4,7 +4,8 @@ Summaries for papers discussed by VLG.
 
 # Summaries
 2021
--CREATIVE SKETCH GENERATION
+- Creative Sketch Genetation [[Paper](https://arxiv.org/abs/2011.10039)][[Review](https://github.com/Sandstorm831/papers_we_read/blob/master/summaries/DoodlerGAN%20summary.md)]
+    - Songwei Ge, Devi Parikh, Vedanuj Goswami & C. Lawrence Zitnick, **ICLR 2021**
 
 2020
 - Unsupervised Learning of Probably Symmetric Deformable 3D Objects from Images in the Wild [[Paper](https://arxiv.org/abs/1911.11130)][[Review](./summaries/Unsupervised_learning_for_3D_objects_from_images.md)]
