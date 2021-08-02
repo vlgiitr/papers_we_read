@@ -4,6 +4,11 @@ Summaries for papers discussed by VLG.
 
 # Summaries
 
+2021
+
+- GANcraft: Unsupervised 3D Neural Rendering of Minecraft Worlds [[Paper](https://arxiv.org/pdf/2104.07659)][[Review](./summaries/GANcraft.md)]
+	- Zekun Hao, Arun Mallya, Serge Belongie, Ming-Yu Liu
+
 2020
 
 - Unsupervised Learning of Probably Symmetric Deformable 3D Objects from Images in the Wild [[Paper](https://arxiv.org/abs/1911.11130)][[Review](./summaries/Unsupervised_learning_for_3D_objects_from_images.md)]
