@@ -18,7 +18,7 @@ gradient descent with momentum to fine tune the parameters for our goal.
 ## Implementation Details
 
 -The structure of the networks is as following:
-<img src='images/Fully_Convolutional_Networks_for_Semantic_Segmentation.png' style="max-width:100%">
+<img src='../images/Fully_Convolutional_Networks_for_Semantic_Segmentation.png' style="max-width:100%">
 -Use of transfer learning is made to transfer the learned representations of the orignal classification networks and then using stochastic gradient
 descent with momentum to fine tune the parameters for semantic segmentation tasks.
 
