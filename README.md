@@ -3,9 +3,11 @@
 Summaries for papers discussed by VLG.
 
 # Summaries
+2021
+- Creative Sketch Genetation [[Paper](https://arxiv.org/abs/2011.10039)][[Review](https://github.com/Sandstorm831/papers_we_read/blob/master/summaries/DoodlerGAN%20summary.md)]
+    - Songwei Ge, Devi Parikh, Vedanuj Goswami & C. Lawrence Zitnick, **ICLR 2021**
 
 2020
-
 - Unsupervised Learning of Probably Symmetric Deformable 3D Objects from Images in the Wild [[Paper](https://arxiv.org/abs/1911.11130)][[Review](./summaries/Unsupervised_learning_for_3D_objects_from_images.md)]
     - Shangzhe Wu, Christian Rupprecht, Andrea Vedaldi, **CVPR 2020**
 - You Only Train Once: Loss-conditional training of deep networks [[Paper](https://openreview.net/pdf?id=HyxY6JHKwr)][[Review](./summaries/You_only_train_once.md)]
