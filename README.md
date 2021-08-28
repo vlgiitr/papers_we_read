@@ -6,6 +6,8 @@ Summaries for papers discussed by VLG.
 2021
 - Creative Sketch Genetation [[Paper](https://arxiv.org/abs/2011.10039)][[Review](https://github.com/Sandstorm831/papers_we_read/blob/master/summaries/DoodlerGAN%20summary.md)]
     - Songwei Ge, Devi Parikh, Vedanuj Goswami & C. Lawrence Zitnick, **ICLR 2021**
+- Binary TTC: A Temporal Geofence for Autonomous Navigation[[Paper](https://arxiv.org/abs/2101.04777)][[Review](./summaries/binary_TTC.md)]
+    - Abhishek Badki, Orazio Gallo, Jan Kautz, Pradeep Sen, **CVPR 2021**
 
 2020
 - Unsupervised Learning of Probably Symmetric Deformable 3D Objects from Images in the Wild [[Paper](https://arxiv.org/abs/1911.11130)][[Review](./summaries/Unsupervised_learning_for_3D_objects_from_images.md)]
