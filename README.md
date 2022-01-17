@@ -4,6 +4,7 @@ Summaries for papers discussed by VLG.
 
 # Summaries
 2021
+- GIRAFFE: Representing Scenes as Compositional Generative Neural Feature Fields [[Paper](https://arxiv.org/pdf/2011.12100)][[Review](./summaries/GIRAFFE.md)] **CVPR 2021**
 - Creative Sketch Genetation [[Paper](https://arxiv.org/abs/2011.10039)][[Review](https://github.com/Sandstorm831/papers_we_read/blob/master/summaries/DoodlerGAN%20summary.md)]
     - Songwei Ge, Devi Parikh, Vedanuj Goswami & C. Lawrence Zitnick, **ICLR 2021**
 - Binary TTC: A Temporal Geofence for Autonomous Navigation[[Paper](https://arxiv.org/abs/2101.04777)][[Review](./summaries/binary_TTC.md)]
