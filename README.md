@@ -19,6 +19,9 @@ This repo houses summaries for various excitng works in the field of **Deep Lear
 
 ## Summaries
 
+### 2022
+- #### Rethinking the Knowledge Distillation From the Perspective of Model Calibration [[Paper](https://arxiv.org/pdf/2111.01684.pdf)][[Review](./summaries/knowledge_distillation_with_model_calibration)]
+
 ### 2021
 
 - #### GANcraft: Unsupervised 3D Neural Rendering of Minecraft Worlds [[Paper](https://arxiv.org/pdf/2104.07659)][[Review](./summaries/GANcraft.md)]
