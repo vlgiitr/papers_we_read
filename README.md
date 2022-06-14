@@ -7,6 +7,7 @@ This repo houses summaries for various excitng works in the field of **Deep Lear
 ## Contents
 
 1. [Summaries](#summaries)
+    - [2022](#2022)
     - [2021](#2021)
     - [2020](#2020)
     - [2019](#2019)
