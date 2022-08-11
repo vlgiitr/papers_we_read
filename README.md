@@ -7,7 +7,6 @@ This repo houses summaries for various excitng works in the field of **Deep Lear
 ## Contents
 
 1. [Summaries](#summaries)
-    - [2022](#2022)
     - [2021](#2021)
     - [2020](#2020)
     - [2019](#2019)
@@ -19,11 +18,6 @@ This repo houses summaries for various excitng works in the field of **Deep Lear
 4. [License](#license)
 
 ## Summaries
-
-### 2022
-- #### Rethinking the Knowledge Distillation From the Perspective of Model Calibration [[Paper](https://arxiv.org/pdf/2111.01684.pdf)][[Review](./summaries/knowledge_distillation_with_model_calibration)]
-
-  - Albert Gu, Karan Goel, Christopher Ré, **ICLR 2022**
 
 ### 2021
 
