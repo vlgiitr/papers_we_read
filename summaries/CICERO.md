@@ -8,7 +8,7 @@ Unlike competitive games like Chess and Go, which computers have mastered throug
 like cooperation and understanding other players' motivations. CICERO is the first AI agent to achieve human-level performance in Diplomacy.<br>
 CICERO uses a language model integrated with a strategy model by understanding conversations happening during the game and generating dialogue to achieve its objectives.
 
-##Diplomacy
+## Diplomacy
 In Diplomacy, seven players conduct private natural language negotiations to coordinate their actions to cooperate and compete.
 Its main distinctions from most board wargames are its negotiation phases. Social interaction and interpersonal skills make up an essential part of the play.
 The rules that simulate combat are strategic, abstract, and simple—not tactical, realistic, or complex—as this is a diplomatic simulation game, not a military one.
