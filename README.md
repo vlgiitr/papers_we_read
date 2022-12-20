@@ -6,18 +6,26 @@ This repo houses summaries for various excitng works in the field of **Deep Lear
 
 ## Contents
 
-1. [Summaries](#summaries)
+- [Deep Learning Paper Summaries](#deep-learning-paper-summaries)
+  - [Introduction](#introduction)
+  - [Contents](#contents)
+  - [Summaries](#summaries)
+    - [2022](#2022)
     - [2021](#2021)
     - [2020](#2020)
     - [2019](#2019)
     - [2018](#2018)
     - [2017](#2017)
     - [2016](#2016)
-2. [Contributing](#contributing)
-3. [Acknowledgements](#acknowledgements)
-4. [License](#license)
+  - [Contributing](#contributing)
+  - [Acknowledgements](#acknowledgements)
+  - [License](#license)
 
 ## Summaries
+
+### 2022
+
+- #### Human-level play in the game of Diplomacy by combining language models with strategic reasoning [[Paper](https://www.science.org/doi/epdf/10.1126/science.ade9097)][[Review](./summaries/CICERO.md)]
 
 ### 2021
 
