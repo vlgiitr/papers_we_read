@@ -21,7 +21,7 @@ The rules that simulate combat are strategic, abstract, and simple—not tactica
 
 ## Method
 
-<img src='../images/Cicero_architecture.PNG'> <br> 
+<img src='../images/Cicero_architecture.jpg'> <br> 
 - In addition to the classic RL principles, Cicero uses anchor policies governed by a Dialogue-conditional action model, which act as behaviour cloning policies.<br>
   In the absence of these anchor policies, the actions of our model become 'non-human', where the model could devise an optimal strategy but which
   would not fit a human environment.
@@ -37,7 +37,7 @@ The rules that simulate combat are strategic, abstract, and simple—not tactica
 
 - Across 40 games of an anonymous online Diplomacy league, Cicero achieved more than double the average score of the human players and ranked in the top 10% of participants who played more than one game.
 - Comparisons with the baselines. <br>
-<img src='../images/Cicero_results.PNG'> <br>
+<img src='../images/Cicero_results.jpg'> <br>
 
 ## Two-Cents
 
