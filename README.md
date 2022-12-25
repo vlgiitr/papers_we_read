@@ -7,8 +7,6 @@ This repo houses summaries for various excitng works in the field of **Deep Lear
 ## Contents
 
 - [Deep Learning Paper Summaries](#deep-learning-paper-summaries)
-  - [Introduction](#introduction)
-  - [Contents](#contents)
   - [Summaries](#summaries)
     - [2022](#2022)
     - [2021](#2021)
