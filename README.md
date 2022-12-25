@@ -6,18 +6,17 @@ This repo houses summaries for various excitng works in the field of **Deep Lear
 
 ## Contents
 
-- [Deep Learning Paper Summaries](#deep-learning-paper-summaries)
-  - [Summaries](#summaries)
-    - [2022](#2022)
-    - [2021](#2021)
-    - [2020](#2020)
-    - [2019](#2019)
-    - [2018](#2018)
-    - [2017](#2017)
-    - [2016](#2016)
-  - [Contributing](#contributing)
-  - [Acknowledgements](#acknowledgements)
-  - [License](#license)
+- [Summaries](#summaries)
+  - [2022](#2022)
+  - [2021](#2021)
+  - [2020](#2020)
+  - [2019](#2019)
+  - [2018](#2018)
+  - [2017](#2017)
+  - [2016](#2016)
+- [Contributing](#contributing)
+- [Acknowledgements](#acknowledgements)
+- [License](#license)
 
 ## Summaries
 
