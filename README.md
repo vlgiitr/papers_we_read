@@ -23,6 +23,7 @@ This repo houses summaries for various excitng works in the field of **Deep Lear
 ### 2022
 
 - #### Human-level play in the game of Diplomacy by combining language models with strategic reasoning [[Paper](https://www.science.org/doi/epdf/10.1126/science.ade9097)][[Review](./summaries/CICERO.md)]
+  - Meta Fundamental AI Research Diplomacy Team (FAIR), Antin Bakhtun, Noam Brown, Emily Dinan, **Science Journal 2022**
 
 ### 2021
 
