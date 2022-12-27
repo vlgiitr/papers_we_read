@@ -25,9 +25,10 @@ This is highly beneficial since the amount of readily available densely annotate
 It uses contrastive losses such as CLIP, InfoNCE for the same.
 
 ## Results
-LaViLa outperforms the previous state-of-the-art video-language pretraining methods on different datasets such as EK100 MIR, Charades-Ego, EGTEA etc. The Evaluation 
-is done through several protocols, and our approach outperforms the previous SOTA in all cases.
-- In *Zero-Shot* protocol, the model is applied to a new set of downstream validation dataset. The two numbers are obtained by using different number of frames as input (4-frame and 16-frame).
+LaViLa outperforms the previous state-of-the-art video-language pretraining methods on different datasets such as EK100 MIR, Charades-Ego, EGTEA etc. <br>
+The evaluation is done through several protocols, and the approach outperforms the previous SOTA in all cases.
+- In *Zero-Shot* protocol, the model is applied to a new set of downstream validation datasets.<br> 
+[ The two different numbers are obtained on using two different number of frames as input (4-frame and 16-frame respectively) ].
 <img src='../images/lavila_zs.jpeg'> <br>
 - In *Fine-Tuned* protocol, the model is end-to-end fine-tuned on the training split of the target downstream datasets.
 <img src='../images/lavila_ft.jpeg'> <br>
