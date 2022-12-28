@@ -1,6 +1,6 @@
 # Human-level play in the game of Diplomacy by combining language models with strategic reasoning
 
-Meta Fundamental AI Research Diplomacy Team (FAIR), Antin Bakhtun, Noam Brown, Emily Dinan **2022**
+Meta Fundamental AI Research Diplomacy Team (FAIR), Antin Bakhtun, Noam Brown, Emily Dinan **Science Journal 2022**
 
 ## Summary
 
