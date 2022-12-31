@@ -25,6 +25,9 @@ This repo houses summaries for various excitng works in the field of **Deep Lear
 - #### Human-level play in the game of Diplomacy by combining language models with strategic reasoning [[Paper](https://www.science.org/doi/epdf/10.1126/science.ade9097)][[Review](./summaries/CICERO.md)]
   - Meta Fundamental AI Research Diplomacy Team (FAIR), Antin Bakhtun, Noam Brown, Emily Dinan, **Science Journal 2022**
 
+- #### Improving Robustness to Model Inversion Attacks via Mutual Information Regularization [[Paper](https://arxiv.org/pdf/2009.05241.pdf)][[Review](./summaries/MI%20attacks%20defense_.md)]
+  - Tianhao Wang, Yuheng Zhang, Ruoxi Jia 
+
 ### 2021
 
 - #### GANcraft: Unsupervised 3D Neural Rendering of Minecraft Worlds [[Paper](https://arxiv.org/pdf/2104.07659)][[Review](./summaries/GANcraft.md)]
