@@ -3,7 +3,7 @@ XINGANG PAN,AYUSH TEWARITHOMAS LEIMKÜHLER,ABHIMITRA MEKA,CHRISTIAN THEOBALT,SIG
 ### SUMMARY
 The research paper introduces DragGAN, an interactive point-based manipulation approach for generative adversarial networks (GANs). The goal is to enable users to control spatial attributes in synthesized images by defining handle points and their corresponding target points. DragGAN addresses two sub-problems: supervising the movement of handle points towards targets and tracking the handle points during the editing process.
 
-<img src="C:\Users\Shivank garg\papers_we_read\images\draggan1.png" width="100%" title="hover text">
+<img src="images/draggan1.png" width="100%" title="hover text">
 
 
 ### METHOD AND MAIN POINTS OF PAPER
@@ -13,17 +13,18 @@ The research paper introduces DragGAN, an interactive point-based manipulation a
 
 
 
-<img src="C:\Users\Shivank garg\papers_we_read\images\draggan2.png" width="100%" title="hover text">
+<img src="images/draggan2.png" width="100%" title="hover text">
 
 - DragGAN effectively achieves diverse and natural image manipulations, allowing for the control of spatial attributes such as pose, shape, and layout. It outperforms UserControllableLT in terms of accuracy and image quality preservation. Real image editing is also showcased using GAN inversion techniques.
 
-<img src="C:\Users\Shivank garg\papers_we_read\images\draggan3.png" width="100%" title="hover text">
+<img src="images/draggan3.png" width="100%" title="hover text">
 
 
 
 
 
-<img src="C:\Users\Shivank garg\papers_we_read\images\draggan4.png" width="100%" title="hover text">
+
+<img src="images/draggan4.png" width="100%" title="hover text">
 
 
 
@@ -32,12 +33,18 @@ The research paper introduces DragGAN, an interactive point-based manipulation a
 ### RESULTS
 - DragGAN effectively achieves diverse and natural image manipulations, allowing for the control of spatial attributes such as pose, shape, and layout. It outperforms UserControllableLT in terms of accuracy and image quality preservation. Real image editing is also showcased using GAN inversion techniques.
 
-<img src="C:\Users\Shivank garg\papers_we_read\images\draggan5.png" width="100%" title="hover text">
+
+
+<img src="images/draggan5.png" width="100%" title="hover text">
 
 
 
 
-<img src="C:\Users\Shivank garg\papers_we_read\images\draggan6.png" width="100%" title="hover text">
+
+
+<img src="images/draggan6.png" width="100%" title="hover text">
+
+
 
 
 ### OUR TWO CENTS
