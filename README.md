@@ -29,7 +29,10 @@ This repo houses summaries for various excitng works in the field of **Deep Lear
 - #### Photorealistic Text-to-Image Diffusion Models with Deep Language Understanding [[Paper](https://arxiv.org/abs/2205.11487)][[Review](./summaries/imagen.md)]
 
   - Chitwan Saharia, William Chan, Saurabh Saxena, Lala Li, Jay Whang, Emily Denton, Seyed Kamyar Seyed Ghasemipour, Burcu Karagol Ayan, S. Sara Mahdavi, Rapha Gontijo Lopes, Tim Salimans, Jonathan Ho, David J Fleet, Mohammad Norouzi, **NIPS 2022**
+  
+- #### Learning Video Representations from Large Language Models [[Paper](https://arxiv.org/pdf/2212.04501.pdf)][[Review](./summaries/Video_Representation_LLM.md)]
 
+  - Yue Zhao, Ishan Misra, Philipp Krähenbüh, Rohit Girdhar, Facebook AI Research- Meta AI, University of Texas, Austin
 ### 2021
 
 - #### GANcraft: Unsupervised 3D Neural Rendering of Minecraft Worlds [[Paper](https://arxiv.org/pdf/2104.07659)][[Review](./summaries/GANcraft.md)]
