@@ -20,26 +20,19 @@ This paper introduces a new memory management stratergy called Rainbow Memory to
 
         <img src='../images/RMperturbation.png'>
 
-    - We approximate uncertainity by Monte Carlo method of the distribution p(y=c|x), when given prior of perturbed sample $\tilde{x}$ as p($\tilde{x}$|x). Perturbation prior is a uniform mixture of all perturbations as shown above.
+    - We approximate uncertainity by Monte Carlo method of the distribution p(y=c|x), when given prior of perturbed sample $$\tilde{x} $$ as p($$\tilde{x} $|x). Perturbation prior is a uniform mixture of all perturbations as shown above.
                       
-         $$
-         p(y=c|x) = \int_{\tilde{D}} p(y=c|\tilde{x}_{t})p(\tilde{x}_t|x)\, d\tilde{x}_t 
-                \approx \frac{1}{A}\sum_{t=1}^A p(y=c|\tilde{x}_{t})
-         $$
+         $$p(y=c|x) = \int_{\tilde{D}} p(y=c|\tilde{x}_{t})p(\tilde{x}_t|x)\, d\tilde{x}_t \approx \frac{1}{A}\sum_{t=1}^A p(y=c|\tilde{x}_{t})$$
     - x, $\tilde{x}$, y,A,$\tilde{D}$ denote a sample, perturbed sample, label of sample, number of perturbation methods and data distribution defined by perturbed samples respectively.
-    - the perturbed sample $\tilde{x}$ is drawn from a random function $f_r(.)$, where $\theta_r$ is a hyper parameter which denotes random factor of the r-th perturbation, as:         
-        $$ \tilde{x} =f_r(x|\theta_r), r=1,2,...,R $$
+    - the perturbed sample $$\tilde{x} $$ is drawn from a random function $f_r(.)$, where $\theta_r$ is a hyper parameter which denotes random factor of the r-th perturbation, as:         
+        $$\tilde{x} =f_r(x|\theta_r), r=1,2,...,R $$
     - the prior $p(\tilde{x}|x)$ is defined as:
         $$\tilde{x} \sim \sum_{r=1}^R w_r *f_r(x|\theta_r) $$
         where the random variable $w_r$, r={1,...,R} is drawn from a categorical binary distribution.
     
     - if u(x) is uncertainity of sample with respect to perturbation:
-        $$
-        u(x)=1 - \frac{1}{T} \max\limits_c S_c
-        $$
-        $$
-        S_c =\sum\limits_{t=1}^T 1_c \argmax\limits_{\tilde{c}}p(y=\tilde{c}|\tilde{x}_t)                    
-        $$
+        $$u(x)=1 - \frac{1}{T} \max\limits_c S_c $$
+        $$S_c =\sum\limits_{t=1}^T 1_c \argmax\limits_{\tilde{c}}p(y=\tilde{c}|\tilde{x}_t) $$
         $S_c$ is the number of times class c is predicted the most likely class, $1_c$ denotes binary class indexing vector.
     - so if we have k memory slots , and our stored samples from previous task and fresh samples from current task add upto m samples, we first arrange them according to u(x) then pick a sample at interval of $\frac{m}{k}$ thus forming a new set of stored samples for the next task.
 
