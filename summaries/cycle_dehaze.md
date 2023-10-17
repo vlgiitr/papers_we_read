@@ -1,6 +1,8 @@
 # Cycle-Dehaze: Enhanced CycleGAN for Single Image Dehazing
  
-Deniz Engin, Anıl Genc, Hazım Kemal Ekenel
+- Authors:- Deniz Engin, Anıl Genc, Hazım Kemal Ekenel
+- Conference name:- The IEEE Conference on Computer Vision and Pattern Recognition (CVPR)
+- Year of publication:- 2018
  
 ## Summary
 
