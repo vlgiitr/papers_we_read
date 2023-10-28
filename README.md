@@ -7,6 +7,7 @@ This repo houses summaries for various excitng works in the field of **Deep Lear
 ## Contents
 
 - [Summaries](#summaries)
+  - [2023](#2023)
   - [2022](#2022)
   - [2021](#2021)
   - [2020](#2020)
@@ -20,6 +21,17 @@ This repo houses summaries for various excitng works in the field of **Deep Lear
 
 ## Summaries
 
+### 2023
+- #### Feature Fusion Attention Network for Single Image Dehazing [[Paper](https://arxiv.org/pdf/1911.07559.pdf)][[Review](./summaries/FFA-Net.md)]
+
+  - Qin, Xu and Wang, Zhilin and Bai, Yuanchao and Xie, Xiaodong and Jia, Huizhu, **AAAI_2020**
+    
+- #### A Style-Based Generator Architecture for Generative Adversarial Networks [[Paper](https://arxiv.org/pdf/1812.04948.pdf)][[Review](./summaries/style_GAN.md)]
+
+  - Tero Karras, Samuli Laine, Timo Aila, **IEEE_CVPR_2018**
+- #### A Style-Based Generator Architecture for Generative Adversarial Networks [[Paper](https://arxiv.org/pdf/1812.04948.pdf)][[Review](./summaries/style_GAN.md)]
+
+  - Tero Karras, Samuli Laine, Timo Aila, **IEEE_CVPR_2018**
 ### 2022
 
 - #### Human-level play in the game of Diplomacy by combining language models with strategic reasoning [[Paper](https://www.science.org/doi/epdf/10.1126/science.ade9097)][[Review](./summaries/CICERO.md)]
