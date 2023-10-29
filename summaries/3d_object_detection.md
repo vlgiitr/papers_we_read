@@ -171,4 +171,5 @@ This paper proposes that center-based 3D object detection and tracking is well p
 
 ## Resources
 Paper:https://paperswithcode.com/paper/center-based-3d-object-detection-and-tracking
+
 Code and pretrained models:https://github.com/tianweiy/CenterPoint
