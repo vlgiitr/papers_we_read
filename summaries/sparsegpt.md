@@ -1,5 +1,6 @@
 # SparseGPT: Massive Language Models Can be Accurately Pruned in One-Shot
-
+## AUTHOR:
+Elias Frantar ,Dan Alistarh 
 ## summary:
 
 SparseGPT is a post-training pruning method for compressing large language models such as GPT3 efficiently and accurately. The method can be used to prune large language models in one-shot with minimal accuracy loss. For example, you can use SparseGPT to prune OPT-175B to 50% sparsity with a 0.13 decrease in perplexity.Thus 100 billion weights from the model can be ignored at inference time, increasing the model's throughput while reducing latency. SparseGPT can be applied to a GPT model with 175B parameters on a single GPU in a couple of hours with negligible accuracy loss.
@@ -35,4 +36,6 @@ SparseGPT solves the row-hessian challenge by reusing Hessians between rows and 
 
 large-scale generative pretrained Transformerfamily models can be compressed to high sparsity via weight pruning in one shot, without any retraining, at low loss of accuracy, when measured both in terms of perplexity and zero-shot performance through this method.
 
+## RESOURCE
+https://paperswithcode.com/paper/massive-language-models-can-be-accurately
 
