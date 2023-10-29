@@ -1,5 +1,7 @@
 # Center-based 3D Object Detection and Tracking
 
+Tianwei Yin, Xingyi Zhou, Philipp Krahenbuhl (UT Austin), CPVR 2021
+
 ## Summary 
 
 This paper proposes that center-based 3D object detection and tracking is well performing over 3D bounding box representations. And how center based method detection and tracking is simple. This paper outperforms on Waymo Open Dataset and ranks first among all Lidar-only submissions.
@@ -161,3 +163,12 @@ This paper proposes that center-based 3D object detection and tracking is well p
     <td>62.0</td>
   </tr>
 </table>
+
+## Our two cents
+**Simple:** It use standard 3D point cloud encoder with a few convolutional layers in the head to produce a bird-eye-view heatmap and other dense regression outputs including the offset to centers in the previous frame. Detection is a simple local peak extraction with refinement, and tracking is a closest-distance matching.
+
+**Fast and Accurate:** Our best single model achieves 71.9 mAPH on Waymo and 65.5 NDS on nuScenes while running at 11FPS+.
+
+## Resources
+Paper:https://paperswithcode.com/paper/center-based-3d-object-detection-and-tracking
+Code and pretrained models:https://github.com/tianweiy/CenterPoint
