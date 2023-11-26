@@ -163,6 +163,10 @@ This repo houses summaries for various excitng works in the field of **Deep Lear
 
   - Gao Huang, Zhuang Liu, Laurens van der Maaten, Kilian Q. Weinberger, **CVPR-2017**
 
+- #### On Calibration of Modern Neural Networks [[Paper](https://arxiv.org/abs/1706.04599)][[Review](./summaries/Calibration_of_Neural_Nets.md)]
+
+  - Chuan Guo, Geoff Pleiss, Yu Sun, Kilian Q. Weinberger, **ICML-2017**
+
 ### 2016
 
 - #### Siamese Recurrent Architectures for Learning Sentence Similarity [[Paper](https://dl.acm.org/citation.cfm?id=3016291)][[Review](./summaries/siamese.md)]
