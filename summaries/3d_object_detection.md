@@ -1,6 +1,6 @@
 # Center-based 3D Object Detection and Tracking
 
-Tianwei Yin, Xingyi Zhou, Philipp Krahenbuhl (UT Austin), **CPVR 2021**
+Tianwei Yin, Xingyi Zhou, Philipp Krahenbuhl (UT Austin), **CVPR 2021**
 
 ## Summary 
 
