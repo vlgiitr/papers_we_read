@@ -35,6 +35,10 @@ This repo houses summaries for various excitng works in the field of **Deep Lear
   - Yue Zhao, Ishan Misra, Philipp Krähenbüh, Rohit Girdhar, Facebook AI Research- Meta AI, University of Texas, Austin
 ### 2021
 
+- #### w2v-BERT: Combining Contrastive Learning and Masked Language Modelling for Self-Supervised Speech Pre-Training [[Paper](https://arxiv.org/abs/2108.06209)][[Review](./summaries/W2V-BERT.md)]
+
+  - Yu-An Chung, Yu Zhang, Wei Han, Chung-Cheng Chiu, James Qin, Ruoming Pang, Yonghui Wu
+
 - #### Rainbow Memory: Continual Learning with a Memory of Diverse Samples [[Paper](https://arxiv.org/pdf/2103.17230.pdf)][[Review](./summaries/RainbowMemory.md)]
 
   - Jihwan Bang, Heesu Kim, YoungJoon Yoo, Jung-Woo Ha, Jonghyun Choi, **CVPR 2021**
