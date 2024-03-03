@@ -41,14 +41,6 @@ Samples from the model trained on CC12M at 1024 resolution
 
 ![cc12m_1024_3 5](https://github.com/shivank21/vlg-recruitment-1y/assets/128126577/4d5a291a-e358-4141-a4da-1c081380f754)
 
-Samples from the model trained on WebVid-10M
-
-![text_to_video1](https://github.com/shivank21/vlg-recruitment-1y/assets/128126577/b0113777-03a4-43f6-bfad-84a8dba0f6ef)
-
-Samples from MDM trained on ImageNet 256 × 256 for labels of “srhinoceros beetle”, “Siberian husky”, “cliff, drop, drop-off”, “coral reef”, “space shuttle”, “hummingbird”
-
-![imagenet_class_1](https://github.com/shivank21/vlg-recruitment-1y/assets/128126577/f03b0ef2-dd12-45c4-b539-b1b436726a09)
-
 ## Two Cents
 
 - The introduction of MDM steers the conversation towards the efficiency and scalability of diffusion models for high-resolution synthesis. Its architectural design and training methodology offers a finer understanding of how multi-resolution processing can be harnessed, suggesting a potential paradigm shift in generative model training.
