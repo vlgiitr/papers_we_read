@@ -35,6 +35,18 @@ This repo houses summaries for various excitng works in the field of **Deep Lear
   - Yue Zhao, Ishan Misra, Philipp Krähenbüh, Rohit Girdhar, Facebook AI Research- Meta AI, University of Texas, Austin
 ### 2021
 
+- #### w2v-BERT: Combining Contrastive Learning and Masked Language Modelling for Self-Supervised Speech Pre-Training [[Paper](https://arxiv.org/abs/2108.06209)][[Review](./summaries/W2V-BERT.md)]
+
+  - Yu-An Chung, Yu Zhang, Wei Han, Chung-Cheng Chiu, James Qin, Ruoming Pang, Yonghui Wu
+
+- #### Rainbow Memory: Continual Learning with a Memory of Diverse Samples [[Paper](https://arxiv.org/pdf/2103.17230.pdf)][[Review](./summaries/RainbowMemory.md)]
+
+  - Jihwan Bang, Heesu Kim, YoungJoon Yoo, Jung-Woo Ha, Jonghyun Choi, **CVPR 2021**
+    
+- #### Center-based 3D Object Detection and Tracking [[Paper](https://arxiv.org/pdf/2006.11275v2.pdf)][[Review](./summaries/3d_object_detection.md)]
+
+  - Tianwei Yin, Xingyi Zhou, Philipp Krahenbuhl (UT Austin), **CVPR 2021**
+    
 - #### GANcraft: Unsupervised 3D Neural Rendering of Minecraft Worlds [[Paper](https://arxiv.org/pdf/2104.07659)][[Review](./summaries/GANcraft.md)]
 
   - Zekun Hao, Arun Mallya, Serge Belongie, Ming-Yu Liu, **ICCV 2021**
@@ -52,7 +64,11 @@ This repo houses summaries for various excitng works in the field of **Deep Lear
   - Abhishek Badki, Orazio Gallo, Jan Kautz, Pradeep Sen, **CVPR 2021**
 
 ### 2020
+    
+- #### Feature Fusion Attention Network for Single Image Dehazing [[Paper](https://arxiv.org/pdf/1911.07559.pdf)][[Review](./summaries/FFA-Net.md)]
 
+  - Qin, Xu and Wang, Zhilin and Bai, Yuanchao and Xie, Xiaodong and Jia, Huizhu, **AAAI_2020**
+    
 - #### Unsupervised Learning of Probably Symmetric Deformable 3D Objects from Images in the Wild [[Paper](https://arxiv.org/abs/1911.11130)][[Review](./summaries/Unsupervised_learning_for_3D_objects_from_images.md)]
 
   - Shangzhe Wu, Christian Rupprecht, Andrea Vedaldi, **CVPR 2020**
@@ -149,12 +165,24 @@ This repo houses summaries for various excitng works in the field of **Deep Lear
 
 ### 2018
 
+- #### Cycle-Dehaze: Enhanced CycleGAN for Single Image Dehazing [[Paper](https://arxiv.org/pdf/1805.05308.pdf)][[Review](./summaries/cycle_dehaze.md)]
+
+  - Deniz Engin, Anil Genc, Hazim Kemal Ekenel, **CVPR 2018**
+    
+- #### A Style-Based Generator Architecture for Generative Adversarial Networks [[Paper](https://arxiv.org/pdf/1812.04948.pdf)][[Review](./summaries/style_GAN.md)]
+
+  - Tero Karras, Samuli Laine, Timo Aila, **IEEE_CVPR_2018**
+    
 - #### CyCADA: Cycle-Consistent Adversarial Domain Adaptation [[Paper](https://arxiv.org/pdf/1711.03213.pdf)][[Review](./summaries/cycada.md)]
 
   - Judy Hoffman, Eric Tzeng, Taesung Park, Jun-Yan Zhu, Phillip Isola, Kate Saenko, Alexei A. Efros, Trevor Darrell, **ICML-2018**
 
 ### 2017
 
+- #### Attention Is All You Need [[Paper](https://arxiv.org/pdf/1706.03762.pdf)][[Review_1](./summaries/attention.md)][[Review_2](./summaries/Attention_Is_All_You_Need.md)]
+
+  - Ashish Vaswani, Noam Shazeer, Niki Parmar, Jakob Uszkoreit, Llion Jones, Aidan N. Gomez, Lukasz Kaiser, Illia Polosukhin, **NeurIPS 2017**
+    
 - #### Unpaired Image-to-Image Translation using Cycle Consistent Adversarial Networks [[Paper](https://arxiv.org/abs/1703.10593)][[Review](./summaries/cyclegan.md)]
 
   - Jun-Yan Zhu, Taesung Park, Phillip Isola, Alexei A. Efros, **ICCV-2017**
