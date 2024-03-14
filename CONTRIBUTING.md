@@ -14,7 +14,7 @@ All kinds of paper summaries are welcome.
 
 1. All the summaries must be written using a markdown format following the [Summary Template](Summary_Template.md).
 2. The `.md` file shoule be name `<PAPER_TITLE.md>` and must be included under the [summaries](summaries/) folder.
-3. Put any images, animations, etc. that you used in the markdown files under the [images](images/) folder.
+3. To add images use links.(Use reliable websites so that the images are not taken down from them).
 
 ## PR Review
 
