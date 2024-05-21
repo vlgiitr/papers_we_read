@@ -19,16 +19,27 @@ The SparseGPT algorithm works as follows, given a fixed pruning mask: 
 SparseGPT is local because it performs weight updates after each pruning step, maintaining the input-output relationship between each layer. The high parametrization of GPT models makes it possible to make the updates without any global gradient information. The cost of the reconstruction process consists of the computation of the initial Hessian, iterating through the inverse Hessian sequence, and pruning.
 
 The pseudocode is interpreted as:
+
 1.Create a pruning mask M with zeros and ones.
+
 2.Construct a matrix E to store the block quantization errors.
+
 3.Calculate the inverse Hessian sequence information 
+
 4.Loop the blocks while updating the pruning mask and the error.
+
 5.Select the largest weights for each block and set their corresponding values in the pruning mask to 1.
+
 6.Prune the remaining weights and set their corresponding values in the pruning mask to 0.
+
 7.Compute the pruning error for each weight in the block and set the error in the E matrix.
+
 8.Freeze the weights that were not pruned.
+
 9.Update the weights in the block using the Cholesky decomposition of the inverse Hessian matrix.
+
 10.Update weights not updated in the previous loop after processing all the blocks.
+
 11.Set pruned weights to 0 by element-wise multiplying the weight matrix with the pruning mask.
 
 ## Two cents:
