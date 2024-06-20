@@ -7,6 +7,8 @@ This repo houses summaries for various excitng works in the field of **Deep Lear
 ## Contents
 
 - [Summaries](#summaries)
+  - [2024](#2024)
+  - [2023](#2023)
   - [2022](#2022)
   - [2021](#2021)
   - [2020](#2020)
@@ -19,6 +21,54 @@ This repo houses summaries for various excitng works in the field of **Deep Lear
 - [License](#license)
 
 ## Summaries
+
+### 2024
+
+- #### Matryoshka Diffusion Models [[Paper](https://arxiv.org/pdf/2310.15111)][[Review](./summaries/Matryoshka_Diffusion.md)]
+
+  - Jiatao Gu, Shuangfei Zhai, Yizhe Zhang, Josh Susskind & Navdeep Jaitly, **ICLR 2024**
+
+### 2023
+
+- #### Ablating Concepts in Text-to-Image Diffusion Models [[Paper](https://arxiv.org/pdf/2303.13516)][[Review](./summaries/Ablating%20Concepts%20in%20Text-to-Image%20Diffusion%20Models.md)]
+
+  - Nupur Kumari, Bingliang Zhang, Sheng-Yu Wang, Eli Shechtman, Richard Zhang, Jun-Yan Zhu, **ICCV 2023**
+
+- #### DIRE for Diffusion-Generated Image Detection [[Paper](https://arxiv.org/pdf/2303.09295)][[Review](./summaries/DIRE.md)]
+
+  - Zhendong Wang, Jianmin Bao, Wengang Zhou, Weilun Wang, Hezhen Hu, Hong Chen, Houqiang Li, **ICCV 2023**
+
+- #### DreamBooth: Fine Tuning Text-to-Image Diffusion Models for Subject-Driven Generation [[Paper](https://arxiv.org/pdf/2208.12242)][[Review](./summaries/DreamBooth.md)]
+  
+  - Nataniel Ruiz, Yuanzhen Li,Varun Jampani,Yael Pritch,Michael Rubinstein, Kfir Aberman, **CVPR 2023**
+
+- #### Multi-Concept Customization of Text-to-Image Diffusion [[Paper](https://arxiv.org/pdf/2212.04488)][[Review](./summaries/Multi%20Concept_Customization_of_Text_to_Image_Diffusion.md)]
+
+  - Nupur Kumari,Bingliang Zhang,Richard Zhang,Eli Shechtman & Jun-Yan Zhu, **CVPR 2023**
+
+- #### Segment Anything [[Paper](https://arxiv.org/pdf/2304.02643)][[Review](./summaries/Segment_Anything.md)]
+
+  - Alexander Kirillov, Eric Mintun, Nikhila Ravi, Hanzi Mao, Chloe Rolland, Laura Gustafson, Tete Xao, Spencer Whitehead, Alexander C. Berg, Wan-Yen Lo, Piotr Dollar, Ross Girshick, **ICCV 2023**
+
+- #### Siamese Masked Autoencoders [[Paper](https://arxiv.org/pdf/2305.14344)][[Review](./summaries/SiamMAE.md)]
+
+  - Agrim Gupta, Jiajun Wu, Jia Deng, Li Fei-Fei, **NIPS 2023**
+
+- #### An Image is Worth One Word: Personalizing Text-to-Image Generation using Textual Inversion [[Paper](https://arxiv.org/pdf/2208.01618)][[Review](./summaries/Textual_inversion.md)]
+
+  - Rinon Gal1, Yuval Alaluf, Yuval Atzmon, Or Patashnik, Amit H. Bermano, Gal Chechik, Daniel Cohen-Or, **ICVR 2023**
+
+- #### Tune-A-Video: One-Shot Tuning of Image Diffusion Models for Text-to-Video Generation [[Paper](https://arxiv.org/pdf/2212.11565v1)][[Review](./summaries/Tune_A_Video.md)]
+
+  - Jay Zhangjie Wu, Yixiao Ge, Xintao Wang, Stan Weixian Lei, Yuchao Gu, Wynne Hsu, Ying Shan, Xiaohu Qie, Mike Zheng Shou, **ICCV 2023**
+
+- #### Universal and Transferable Adversarial Attacks on Aligned Language Models [[Paper](https://arxiv.org/pdf/2307.15043)][[Review](./summaries/Universal_Transferable_Adversial_Attacks.md)]
+
+  - Andy Zou, Zifan Wang, Nicholas Carlini , Milad Nasr, J. Zico Kolter & Matt Fredrikson
+
+- #### What do Neural Networks Learn in Image Classification? A Frequency Shortcut Perspective [[Paper](https://arxiv.org/pdf/2307.09829)][[Review](./summaries/What_do_neural_networks_learn_in_image_classification-A_frequency_shortcut_perspective.md)]
+
+  - Shunxin Wang, Raymond Veldhuis ,Christoph Brune ,Nicola Strisciuglio, **ICCV 2023**
 
 ### 2022
 
@@ -33,7 +83,12 @@ This repo houses summaries for various excitng works in the field of **Deep Lear
 - #### Learning Video Representations from Large Language Models [[Paper](https://arxiv.org/pdf/2212.04501.pdf)][[Review](./summaries/Video_Representation_LLM.md)]
 
   - Yue Zhao, Ishan Misra, Philipp Krähenbüh, Rohit Girdhar, Facebook AI Research- Meta AI, University of Texas, Austin
+
 ### 2021
+
+- #### An Image is Worth 16X16 Wrods: Transformers for Image Recognition at Scale [[Paper](https://arxiv.org/pdf/2010.11929)][[Review](./summaries/Vision_Transformer.md)]
+
+  - Alexey Dosovitsky, Lucas Beyer, Alexander Kolesnikov, Dirk Weissenborn, Xiaohua Zhai, Thomas Unterthiner, Mostafa Dehghani, Matthias Minderer, Georg Heigold, Sylvain Gelly, Jakob Uszkoreit, Neil Houlsby, **ICLR 2021**
 
 - #### w2v-BERT: Combining Contrastive Learning and Masked Language Modelling for Self-Supervised Speech Pre-Training [[Paper](https://arxiv.org/abs/2108.06209)][[Review](./summaries/W2V-BERT.md)]
 
@@ -63,7 +118,23 @@ This repo houses summaries for various excitng works in the field of **Deep Lear
 
   - Abhishek Badki, Orazio Gallo, Jan Kautz, Pradeep Sen, **CVPR 2021**
 
+- #### On The Frequency Bias of Generative Models [[Paper](https://arxiv.org/pdf/2111.02447)][[Review](./summaries/frequency_bias.md)]
+
+  - Katja Schwarz, Yiyi Liao, Andreas Geiger, **NeurIPS 2021**
+
 ### 2020
+
+- #### BART: Denoising Sequence-to-Sequence Pre-training for Natural Language Generation, Translation, and Comprehension [[Paper](https://arxiv.org/pdf/1910.13461)][[Review](./summaries/BART_Denoising_Sequence_to_Sequence_Pretraining_for_Natural_Language_Generation_Translation_and_Comprehension.md)]
+
+  - Mike Lewis, Yinhan Liu, Naman Goyal, Marjan Ghazvininejad, Abdelrahman Mohamed, Omer Levy, Veselin Stoyanov, Luke Zettlemoyer, **ACL 2020**
+
+- #### Machine-Unlearning [[Paper](https://arxiv.org/pdf/1912.03817)][[Review](./summaries/machine_unlearning.md)]
+
+  - Lucas Bourtoule, Varun Chandrasekaran, Christopher A. Choquette-Choo, Hengrui Jia,Adelin Travers, Baiwu Zhang, David Lie,Nicolas Papernot, **IEEE 2020**
+
+- #### Big Bird: Transformers for Longer Sequences [[Paper](https://arxiv.org/pdf/2007.14062)][[Review](./summaries/Big_Bird_Transformers.md)]
+
+  - Manzil Zaheer, Guru Guruganesh, Avinava Dubey, Joshua Ainslie, Chris Alberti, Santiago Ontanon, Philip Pham, Anirudh Ravula, Qifan Wang, Li Yang, Amr Ahmed, **NeurIPS 2020**
     
 - #### Feature Fusion Attention Network for Single Image Dehazing [[Paper](https://arxiv.org/pdf/1911.07559.pdf)][[Review](./summaries/FFA-Net.md)]
 
