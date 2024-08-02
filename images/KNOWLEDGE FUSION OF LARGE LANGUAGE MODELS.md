@@ -52,5 +52,5 @@ Conventional techniques such as model ensemble and weight merging are commonly e
   - Investigating the application of FUSELLM in various downstream tasks and its impact on different language understanding benchmarks.
 
 ## Resources
-
-- No specific resources such as project pages, implementation links, or blog posts were provided in the extracted text. If available, these would typically be included here for further reference.
+Paper Link
+-https://arxiv.org/pdf/2401.10491v1)
