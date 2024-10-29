@@ -23,7 +23,18 @@ This repo houses summaries for various excitng works in the field of **Deep Lear
 ## Summaries
 
 ### 2024
-
+- #### GARField: Group Anything with Radiance Fields [[Paper](https://arxiv.org/abs/2401.09419)][[Review](./summaries/GARField.md)]
+  - Chung Min Kim, Mingxuan Wu, Justin Kerr, Ken Goldberg, Matthew Tancik, Angjoo Kanazawa, **CVPR 2024**  
+- #### Image Hijacks: Adversarial Images can Control Generative Models at Runtime [[Paper](https://arxiv.org/abs/2309.00236)][[Review](./summaries/Image_Hijacks.md)]
+  - Luke Bailey,Euan Ong,Stuart Russel,Scott Emmons, **ICML 2024**
+- #### AI CONTROL: IMPROVING SAFETY DESPITE INTENTIONAL SUBVERSION [[Paper](https://arxiv.org/abs/2312.06942)][[Review](./summaries/AI_Control.md)] 
+  - Ryan Greenblatt,Buck Shlegeris,Kshitij Sachan,Fabien Roger, **ICML 2024**
+- #### Evaluating Text-to-Visual Generation with Image-to-Text Generation [[Paper](https://arxiv.org/pdf/2404.01291)][[Review](./summaries/VQAscore.md)]
+  - Zhiqiu Lin, Deepak Pathak, Baiqi Li, Jiayao Li, Xide Xia, Graham Neubig, Pengchuan Zhang, Deva Ramanan, **ECCV 2024**  <br>
+- #### THINK BEFORE YOU SPEAK: Training Language Models With Pause Tokens [[Paper](https://arxiv.org/abs/2310.02226)][[Review](./summaries/Pause_Tokens.md)]
+  - Sachin Goyal, Ziwei Ji, Ankit Rawat, Aditya Menon, Sanjiv Kumar, Vaishnavh Nagarajan, **ICLR** **2024**
+- #### WARM: On the Benefits of Weight Averaged Rewarded Model [[Paper](https://arxiv.org/abs/2401.12187)][[Review](./summaries/WARM.md)]
+  - Alexandre Ramé, Nino Vieillard, Léonard Hussenot, Robert Dadashi, Geoffrey Cideron, Olivier Bachem, Johan Ferret, **ICML May 2024**
 - #### Matryoshka Diffusion Models [[Paper](https://arxiv.org/pdf/2310.15111)][[Review](./summaries/Matryoshka_Diffusion.md)]
 
   - Jiatao Gu, Shuangfei Zhai, Yizhe Zhang, Josh Susskind & Navdeep Jaitly, **ICLR 2024**
@@ -71,6 +82,8 @@ This repo houses summaries for various excitng works in the field of **Deep Lear
   - Shunxin Wang, Raymond Veldhuis ,Christoph Brune ,Nicola Strisciuglio, **ICCV 2023**
 
 ### 2022
+- #### GAN-based image steganography for enhancing security via adversarial attack and pixel-wise deep fusion [[Paper](https://link.springer.com/article/10.1007/s11042-021-11778-z)][[Review](./summaries/Image_Steganography_ADF-IS.md) ]
+  - Chao Yuan, Hongxia Wang,  Peisong He, Jie Luo, Bin Li, **Springer Multimedia tools and applications** **2022**
 
 - #### Human-level play in the game of Diplomacy by combining language models with strategic reasoning [[Paper](https://www.science.org/doi/epdf/10.1126/science.ade9097)][[Review](./summaries/CICERO.md)]
 
@@ -85,6 +98,9 @@ This repo houses summaries for various excitng works in the field of **Deep Lear
   - Yue Zhao, Ishan Misra, Philipp Krähenbüh, Rohit Girdhar, Facebook AI Research- Meta AI, University of Texas, Austin
 
 ### 2021
+
+- #### CLIP (Contrastive Language–Image Pre-training) [[Paper](https://arxiv.org/pdf/2103.00020)][[Review](./summaries/CLIP.md)]
+  - Alec Radford, Jong Wook Kim, Chris Hallacy, Aditya Ramesh, Gabriel Goh, Sandhini Agarwal, Girish Sastry, Amanda Askell, Pamela Mishkin, Jack Clark, Gretchen Krueger, Ilya Sutskever , **ICML** **2021**
 
 - #### An Image is Worth 16X16 Wrods: Transformers for Image Recognition at Scale [[Paper](https://arxiv.org/pdf/2010.11929)][[Review](./summaries/Vision_Transformer.md)]
 
