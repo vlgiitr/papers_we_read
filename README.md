@@ -37,7 +37,7 @@ This repo houses summaries for various excitng works in the field of **Deep Lear
   - Alexandre Ramé, Nino Vieillard, Léonard Hussenot, Robert Dadashi, Geoffrey Cideron, Olivier Bachem, Johan Ferret, **ICML May 2024**
 - #### Matryoshka Diffusion Models [[Paper](https://arxiv.org/pdf/2310.15111)][[Review](./summaries/Matryoshka_Diffusion.md)]
   - Jiatao Gu, Shuangfei Zhai, Yizhe Zhang, Josh Susskind & Navdeep Jaitly, **ICLR 2024**
-- #### INSTRUCTSCENE: INSTRUCTION-DRIVEN 3D INDOOR SCENE SYNTHESIS WITH SEMANTIC GRAPH PRIOR [[Paper](https://arxiv.org/pdf/2402.04717)][[Review]()]
+- #### INSTRUCTSCENE: INSTRUCTION-DRIVEN 3D INDOOR SCENE SYNTHESIS WITH SEMANTIC GRAPH PRIOR [[Paper](https://arxiv.org/pdf/2402.04717)][[Review](./summaries/instructscene.md)]
   - Chenguo Lin & Yadong Mu, **ICLR 2024**
 
 ### 2023
