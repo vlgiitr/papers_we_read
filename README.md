@@ -38,7 +38,7 @@ This repo houses summaries for various excitng works in the field of **Deep Lear
 - #### Matryoshka Diffusion Models [[Paper](https://arxiv.org/pdf/2310.15111)][[Review](./summaries/Matryoshka_Diffusion.md)]
   - Jiatao Gu, Shuangfei Zhai, Yizhe Zhang, Josh Susskind & Navdeep Jaitly, **ICLR 2024**
 - #### INSTRUCTSCENE: INSTRUCTION-DRIVEN 3D INDOOR SCENE SYNTHESIS WITH SEMANTIC GRAPH PRIOR
-  - Chenguo Lin & Yadong Mu ICLR 2024
+  - Chenguo Lin & Yadong Mu **ICLR 2024**
 
 ### 2023
 
