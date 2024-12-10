@@ -19,6 +19,8 @@ The paper introduces INSTRUCTSCENE, a novel two-stage framework for 3D indoor sc
 <img src="../images/instructscene.png" height=250>
 <br><i>Overview of Methodolyogy</i> <br></br></p>
 
+The main steps of the process proposed in this paper could be broken down into the following pointers:
+
 - Feature Quantization: Employs a vector-quantized variational autoencoder to compress high-dimensional semantic features of objects into a compact codebook, capturing intrinsic characteristics like color, material, and geometric shape while reducing computational complexity.
 - Semantic Graph Prior: Develops a discrete diffusion model that independently diffuses object categories, semantic features, and spatial relationships, creating a probabilistic semantic graph that captures the essence of the user's instructions while maintaining flexibility in scene representation.
 - Layout Decoder: Utilizes another diffusion model to convert the abstract semantic graph into precise 3D scene layouts, generating specific object attributes like location, size, and orientation while ensuring semantic consistency with the original graph.
