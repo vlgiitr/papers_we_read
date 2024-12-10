@@ -19,7 +19,7 @@ The paper introduces INSTRUCTSCENE, a novel two-stage framework for 3D indoor sc
 <img src="../images/instructscene.png" height=250>
 <br><i>Overview of Methodolyogy</i> <br></br></p>
 
-The main steps of the process proposed in this paper could be broken down into the following pointers:
+The main components of the process proposed in this paper could be broken down into the following pointers:
 
 - Feature Quantization: Employs a vector-quantized variational autoencoder to compress high-dimensional semantic features of objects into a compact codebook, capturing intrinsic characteristics like color, material, and geometric shape while reducing computational complexity.
 - Semantic Graph Prior: Develops a discrete diffusion model that independently diffuses object categories, semantic features, and spatial relationships, creating a probabilistic semantic graph that captures the essence of the user's instructions while maintaining flexibility in scene representation.
@@ -30,6 +30,15 @@ The main steps of the process proposed in this paper could be broken down into t
 ## Results
 
 The experimental results demonstrated that INSTRUCTSCENE significantly outperforms existing state-of-the-art methods in 3D indoor scene synthesis. By comparing against baselines like ATISS and DiffuScene, the proposed method showed marked improvements in generation controllability and fidelity. The authors conducted comprehensive quantitative evaluations that revealed their approach's ability to more accurately translate natural language instructions into semantically coherent 3D scenes. The ablation studies further confirmed the efficacy of each key design component, highlighting the method's robust performance. Additionally, the curated scene-instruction paired dataset not only supported their experimental validation but also provided a valuable resource for future research in instruction-driven scene generation. The zero-shot generalization capability of their semantic graph prior was particularly noteworthy, demonstrating the method's potential for versatile and adaptive scene synthesis across different scenarios.
+
+<p align = "center">
+<img src="../images/instructscene_results_1.png" height=250>
+<br><i>Results Table 1</i> <br></br></p>
+
+<p align = "center">
+<img src="../images/instructscene_results_2.png" height=250>
+<br><i>Results Table 2</i> <br></br></p>
+
 
 ## Two Cents
 
