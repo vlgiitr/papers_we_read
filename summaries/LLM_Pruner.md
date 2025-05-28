@@ -93,7 +93,7 @@ $L(W_i^k) = \mathcal{L}(W_i^k)(\mathcal{D}) - \mathcal{L}(W_i^k = 0)(\mathcal{D}
 
 ## Two-Cents
 
-LLM-Pruner presents an efficient, task-agnostic pruning method for large language models that preserves performance with minimal data and compute, making it highly practical. However even with these advancements there scope for further improvement like employing low-rank hessian approximations, adapative pruning across layers as uniform pruning might lead to significant compression to critical layers.
+LLM-Pruner presents an efficient, task-agnostic pruning method for large language models that preserves performance with minimal data and compute, making it highly practical. However even with these advancements there is scope for further improvement like employing low-rank hessian approximations, adapative pruning across layers as uniform pruning might lead to significant compression to critical layers.
 
 ## Resources
 
