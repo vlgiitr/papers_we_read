@@ -26,7 +26,7 @@ The main contributions of this paper are:
 
  Considering any neuron within the LLM as the initial trigger, it possesses the capability to activate neurons that depend on it. Subsequently, these newly triggered neurons can serve as the subsequent triggers to identify the dependency and activate their respective dependent neurons. This iterative process continues until no new neurons are detected.
 
-2. **Estimation Stage**: In this satge, we estimate the importance of each group, to assign such a score to each group, the model is given access to a limited external datastet. Later, all groups are ranked according to their importance and pruned as per a pre-defined pruning ratio, group importance can be computed via two methods:
+2. **Estimation Stage**: In this stage, we estimate the importance of each group, to assign such a score to each group, the model is given access to a limited external datastet. Later, all groups are ranked according to their importance and pruned as per a pre-defined pruning ratio, group importance can be computed via two methods:
   * **Vector-wise Importance**:
 
 $L(W_i) = \Delta \mathcal{L}(\mathcal{D}) = \mathcal{L}(W_i)(\mathcal{D}) - \mathcal{L}(W_i = 0)(\mathcal{D}) = \left[ \frac{\partial \mathcal{L}}{\partial {\top}(\mathcal{D})}{\partial W_i} - \frac{1}{2} W_i^{{\top}} H W_i + \mathcal{O}(|W_i|^3) \right]$
