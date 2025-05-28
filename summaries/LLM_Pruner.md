@@ -29,9 +29,7 @@ The main contributions of this paper are:
 2. **Estimation Stage**: In this satge, we estimate the importance of each group, to assign such a score to each group, the model is given access to a limited external datastet. Later, all groups are ranked according to their importance and pruned as per a pre-defined pruning ratio, group importance can be computed via two methods:
   * **Vector-wise Importance**:
 
-$$
-I_{W_i} = |\Delta \mathcal{L}(\mathcal{D})| = |\mathcal{L}_{W_i}(\mathcal{D}) - \mathcal{L}_{W_i = 0}(\mathcal{D})| = \left| \frac{\partial \mathcal{L}^{\top}(\mathcal{D})}{\partial W_i} W_i - \frac{1}{2} W_i^{\top} H W_i + \mathcal{O}(\|W_i\|^3) \right|
-$$
+$L(W_i) = \Delta \mathcal{L}(\mathcal{D}) = \mathcal{L}(W_i)(\mathcal{D}) - \mathcal{L}(W_i = 0)(\mathcal{D}) = \left[ \frac{\partial \mathcal{L}}{\partial {\top}(\mathcal{D})}{\partial W_i} - \frac{1}{2} W_i^{{\top}} H W_i + \mathcal{O}(|W_i|^3) \right]$
 
 Note: A group is represented as $\mathcal{G} = \{W_i\}_{i=1}^{M}$, where $M$ is the number of coupled structures in one group and $W_i$ is the weight for each structure.
 
