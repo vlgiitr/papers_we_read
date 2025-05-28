@@ -22,7 +22,7 @@ The main contributions of this paper are:
 
 1. **Discovery Stage**: This step focuses on identifying groups of interdependent structures within the LLM, this ensures coupled strcutures are pruned in unison, as partial pruning leads to increase in parameter size and misaligned respresentations
 
-<img src='../images/Garfield2.png'>
+<img src='../images/Discovery_stage.png'>
 
  Considering any neuron within the LLM as the initial trigger, it possesses the capability to activate neurons that depend on it. Subsequently, these newly triggered neurons can serve as the subsequent triggers to identify the dependency and activate their respective dependent neurons. This iterative process continues until no new neurons are detected.
 
@@ -86,9 +86,9 @@ $L(W_i^k) = \mathcal{L}(W_i^k)(\mathcal{D}) - \mathcal{L}(W_i^k = 0)(\mathcal{D}
 
 ---
 
-<img src='../images/Garfield2.png'>
+<img src='../images/Pruner_1.png'>
 
-<img src='../images/Garfield2.png'>
+<img src='../images/Pruner_2.png'>
 
 
 ## Two-Cents
