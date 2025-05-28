@@ -4,7 +4,7 @@ Xinyin Ma, Gongfan Fang, Xinchao Wang **NeurIPS 2023**
 
 ## Summary
 
-This paper introduces a method named "LLM-Pruner", this aims to ensure LLM's retain their multi-task solving and language generation abilities. This is done via removing coupled structures( based on connections between neurons) using gradient information, then the pruned LLM is trained on a limited dataset to help recover it's original abilities.  
+This paper introduces a method named "LLM-Pruner", this aims to ensure LLM's retain their multi-task solving and language generation abilities even after compression. This is done via removing coupled structures( based on connections between neurons) using gradient information, then the pruned LLM is trained on a limited dataset to help recover it's original abilities.  
 
 ## Contributions
 
