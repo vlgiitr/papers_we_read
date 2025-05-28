@@ -37,9 +37,7 @@ where $H$ is the Hessian matrix. Here, $\mathcal{L}$ represents the next-token p
 
   * **Element-wise Importance**: If we want an even finer and precise ranking we can opt for computing the importance of each element of $W_i$, instead of the appromixation we derived above. The mathematical formulation for this is-
 
-$$
-I_{W_i^k} = |\mathcal{L}_{W_i^k}(\mathcal{D}) - \mathcal{L}_{W_i^k = 0}(\mathcal{D})| \approx \left| \frac{\partial \mathcal{L}(\mathcal{D})}{\partial W_i^k} W_i^k - \frac{1}{2} \sum_{j=1}^{N} \left( \frac{\partial \mathcal{L}(\mathcal{D}_j)}{\partial W_i^k} W_i^k \right)^2 + \mathcal{O}(\|W_i^k\|^3) \right|
-$$
+$L(W_i^k) = \mathcal{L}(W_i^k)(\mathcal{D}) - \mathcal{L}(W_i^k = 0)(\mathcal{D}) \approx \left[ \frac{\partial \mathcal{L}(\mathcal{D})}{\partial W_i^k} W_i^k - \frac{1}{2} \sum_{j=1}^{N} \left( \frac{\partial \mathcal{L}(\mathcal{D}_j)}{\partial W_i^k} W_i^k \right)^2 + \mathcal{O}(|W_i^k|^3) \right]$
 
   After the above computations, group importance can be calculted by any of the following four operations
   1. Summation
