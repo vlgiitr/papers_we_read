@@ -22,18 +22,28 @@ This paper addresses the challenge of combining multiple fine-tuned models into 
     2. Elect Sign: Find the sign with the highest total magnitude across all relevant models. This majority sign is considered the "elected" sign for that parameter.
     3. Disjoint Merge: Merge only those parameter updates that align with the elected sign. Compute the average of these aligned updates to obtain the final parameter value.
 
+![image](/images/TIES_method.png)
+
 - Scale the merged task vectors and add them to the original parameter values.
+
+![image](/images/TIES_interference.png)
 
 ## Results
 
 - Performance: TIES-MERGING outperforms averaging, Fisher Merging, RegMean, and Task Arithmetic. The improvement in performance increases as the number of merged models increases.
 
+![image](/images/TIES_table.png)
+
 - Robustness: The method shows consistent improvements across diverse settings, including different tasks, domains, and model architectures. It also scales well as the number of tasks increases.
+
+![image](/images/TIES_graph.png)
 
 - Ablation Studies: 
     - Trim Step: Removing this step leads to increased noise from parameters that did not meaningfully change during fine-tuning.
     - Elect Sign Step: Omitting this causes performance to drop sharply, especially when sign conflicts are prevalent — validating this as a core strength of the method.
     - Disjoint Merge: Ensures cleaner parameter integration — performing better than simple averaging or majority vote across entire parameter vectors.
+
+![image](/images/TIES_ablation.png)
 
 ## Two-Cents
 
