@@ -18,9 +18,16 @@ This paper addresses the challenge of combining multiple fine-tuned models into 
 
 - The TIES-MERGING approach involves the following steps:
 
-    1. Trim: For each task, keep the top k% of task vector values and set the rest to 0.
-    2. Elect Sign: Find the sign with the highest total magnitude across all relevant models. This majority sign is considered the "elected" sign for that parameter.
-    3. Disjoint Merge: Merge only those parameter updates that align with the elected sign. Compute the average of these aligned updates to obtain the final parameter value.
+    ### 1. Trim
+
+    Let $\tau_t$ be the task vector, where task vector represents the updates to be made to the pre-trained model to attain values of the finetuned model. The top k% of values of $\tau_t$ are retained, while the others are deemed redundant and set to zero. This reduces noise and makes only meaningful updates.
+    ### 2. Elect Sign
+
+    We create an aggregate elected sign vector $\gamma_m$ for the merged model that resolves the disagreements in the sign for each parameter pacross different models. For each parameter, separate the values in task vector based on sign and take their sum. The sign with the largest sum is the elected sign.
+
+    ### 3. Disjoint Merge
+    
+    Merge only those parameter updates that align with the elected sign. Compute the average of these aligned updates to obtain the final parameter value.
 
 ![image](/images/TIES_method.png)
 
@@ -30,11 +37,13 @@ This paper addresses the challenge of combining multiple fine-tuned models into 
 
 ## Results
 
+- The authors test TIES-MERGING on three major tasks: (1) Task Arithmetic using GPT-2 on NLP tasks, (2) LoRAHub using LLaMA-Adapter-v2 across multilingual and multi-domain NLP tasks, and (3) TIES-MoE using ResNet-50 for vision tasks across disjoint image classification datasets.
+
 - Performance: TIES-MERGING outperforms averaging, Fisher Merging, RegMean, and Task Arithmetic. The improvement in performance increases as the number of merged models increases.
 
 ![image](/images/TIES_table.png)
 
-- Robustness: The method shows consistent improvements across diverse settings, including different tasks, domains, and model architectures. It also scales well as the number of tasks increases.
+- Robustness: The method shows consistent improvements across diverse settings, including different tasks, domains, and model architectures. It also scales well as the number of tasks increases. The design of the merging mechanism inherently scales well because it reduces interference and leverages aligned signal.
 
 ![image](/images/TIES_graph.png)
 
