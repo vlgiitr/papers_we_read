@@ -29,11 +29,11 @@ This paper addresses the challenge of combining multiple fine-tuned models into 
     
     Merge only those parameter updates that align with the elected sign. Compute the average of these aligned updates to obtain the final parameter value.
 
-![image](/images/TIES_method.png)
+<img src = '../images/TIES_method.png' width='1000' style="display: block; margin: 0 auto"/>
 
 - Scale the merged task vectors and add them to the original parameter values.
 
-![image](/images/TIES_interference.png)
+<img src = '../images/TIES_interference.png' width='300' style="display: block; margin: 0 auto"/>
 
 ## Results
 
@@ -41,18 +41,18 @@ This paper addresses the challenge of combining multiple fine-tuned models into 
 
 - Performance: TIES-MERGING outperforms averaging, Fisher Merging, RegMean, and Task Arithmetic. The improvement in performance increases as the number of merged models increases.
 
-![image](/images/TIES_table.png)
+<img src = '../images/TIES_table.png' width='600' style="display: block; margin: 0 auto"/>
 
 - Robustness: The method shows consistent improvements across diverse settings, including different tasks, domains, and model architectures. It also scales well as the number of tasks increases. The design of the merging mechanism inherently scales well because it reduces interference and leverages aligned signal.
 
-![image](/images/TIES_graph.png)
+<img src = '../images/TIES_graph.png' width='300' style="display: block; margin: 0 auto"/>
 
 - Ablation Studies: 
     - Trim Step: Removing this step leads to increased noise from parameters that did not meaningfully change during fine-tuning.
     - Elect Sign Step: Omitting this causes performance to drop sharply, especially when sign conflicts are prevalent — validating this as a core strength of the method.
     - Disjoint Merge: Ensures cleaner parameter integration — performing better than simple averaging or majority vote across entire parameter vectors.
 
-![image](/images/TIES_ablation.png)
+<img src = '../images/TIES_ablation.png' width='300' style="display: block; margin: 0 auto"/>
 
 ## Two-Cents
 
